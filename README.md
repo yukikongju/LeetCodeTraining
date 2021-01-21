@@ -15,15 +15,15 @@ Grinding LeetCode Questions to pass FAANG interviews
   7 | Reverse Integer | Easy | --- | 
   9 | Palindrome Number | Easy | Two Pointers | 
   11 | Container With Most Water | Medium | Sliding Window Technique |
-  14 | Longest Common Prefix | Easy | --- | --- |
+  14 | Longest Common Prefix | Easy | --- | |
   20 | Valid Parentheses | Easy | Stack | |
   21 | Merge Two Sorted Lists | Easy | Recursivity | | |
   26 | Remove Duplicates from Sorted Array | Easy | --- | |
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search | 
-  189 | Rotate Array | Medium | Brute Force | 
+  189 | Rotate Array | Medium | Brute Force, Reverse | 
   206 | Reverse Linked List | Easy | Iterative |
-  344 | Reverse String | Easy | Two Pointers |
+  344 | Reverse String | Easy | Two Pointers, Recursive |
   
 ### [Ressources](#ressources)
 
