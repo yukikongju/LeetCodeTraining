@@ -21,7 +21,8 @@ Grinding LeetCode Questions to pass FAANG interviews
   26 | Remove Duplicates from Sorted Array | Easy | --- | |
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search | 
-
+  189 | Rotate Array | Medium | Brute Force | 
+  
 ### [Ressources](#ressources)
 
   - [ ] FisherCoder's Github Repository: https://github.com/fishercoder1534/Leetcode
