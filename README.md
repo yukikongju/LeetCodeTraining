@@ -20,6 +20,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   21 | Merge Two Sorted Lists | Easy | Recursivity | | |
   26 | Remove Duplicates from Sorted Array | Easy | --- | |
   27 | Remove Element | Easy | --- | |
+  35 | Search Insert Position | Easy | Binary Search | 
 
 ### [Ressources](#ressources)
 
