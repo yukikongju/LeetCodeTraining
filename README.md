@@ -22,6 +22,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search | 
   53 | Maximum Subarray | Easy | Kadane's Algorithm |
+  83 | Remove Duplicates from Sorted List | Iterative |
   189 | Rotate Array | Medium | Brute Force, Reverse | 
   206 | Reverse Linked List | Easy | Iterative |
   344 | Reverse String | Easy | Two Pointers, Recursive |
