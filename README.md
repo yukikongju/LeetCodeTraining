@@ -2,11 +2,11 @@ Grinding LeetCode Questions to pass FAANG interviews
 
 ## Table of Content
 
-### [Algorithms](#algorithms)
-### [Ressources](#ressources)
+* [Algorithms](#algorithms)
+* [Ressources](#ressources)
 
 
-### [Algorithms](#algorithms)
+## [Algorithms](#algorithms)
 
   Code | Title | Difficulty | Current Solution | Video Explanation | Tag | Status |
   --- | --- | --- | --- | --- | --- | --- |
@@ -21,11 +21,12 @@ Grinding LeetCode Questions to pass FAANG interviews
   26 | Remove Duplicates from Sorted Array | Easy | --- | |
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search | 
+  53 | Maximum Subarray | Easy | Kadane's Algorithm |
   189 | Rotate Array | Medium | Brute Force, Reverse | 
   206 | Reverse Linked List | Easy | Iterative |
   344 | Reverse String | Easy | Two Pointers, Recursive |
   
-### [Ressources](#ressources)
+## [Ressources](#ressources)
 
   - [ ] FisherCoder's Github Repository: https://github.com/fishercoder1534/Leetcode
   - [ ] Gouthampradhan's Github Repository: https://github.com/gouthampradhan/leetcode
