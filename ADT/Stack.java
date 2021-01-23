@@ -1,6 +1,6 @@
 #!/usr/bin/java
 
-public Stack implements Iterable{
+public Stack{
   private Object[] elements;
   private int top;
   private static final DEFAULT_CAPACITY = 1;
