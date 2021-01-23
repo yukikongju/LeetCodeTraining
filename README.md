@@ -25,6 +25,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   83 | Remove Duplicates from Sorted List | Easy | Iterative |
   100 | Same Tree | Easy | Recursion |
   101 | Symmetric Tree | Easy | Recursion |
+  104 | Maximum Depth of Binary Tree | Easy | Recursion |
   189 | Rotate Array | Medium | Brute Force, Reverse | 
   206 | Reverse Linked List | Easy | Iterative |
   344 | Reverse String | Easy | Two Pointers, Recursive |
