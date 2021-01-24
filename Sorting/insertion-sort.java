@@ -1,14 +1,12 @@
 #!/usr/bin/java
 
-public class Selection {
-  public static void selectionSort(Comparable[] array){
-	for(int i=0; i< array.length - 1; i++){
-	  int min = i;
-	  for(int j = i+1; j< array.length; j++){
-		if(less(array[j], array[min])){
-		  min = j;
-		}
-		exch(array, i, min);
+public class Insertion{
+  public static void main(Comparable[] array){
+	for(int i=0; i<array.length; i++){
+	  for(int j=i; j>0; j--){
+		if(less(array[j], array[j-1]))
+		  exch(array, j, j-1);
+		else break;
 	  }
 	}
   }
@@ -23,3 +21,4 @@ public class Selection {
 	array[min] = temp;
   }
 }
+
