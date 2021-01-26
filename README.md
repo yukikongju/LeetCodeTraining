@@ -29,7 +29,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   112 | Path Sum | Easy | Recursion |
   121 | Best Time to Buy and Sell Stock | Easy | Kadane's, Iterative | 
   189 | Rotate Array | Medium | Brute Force, Reverse | 
-  206 | Reverse Linked List | Easy | Iterative |
+  206 | Reverse Linked List | Easy | Iterative, Recursive |
   344 | Reverse String | Easy | Two Pointers, Recursive |
   
 ## [Ressources](#ressources)
