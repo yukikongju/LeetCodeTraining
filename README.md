@@ -30,6 +30,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   121 | Best Time to Buy and Sell Stock | Easy | Kadane's, Iterative | 
   189 | Rotate Array | Medium | Brute Force, Reverse | 
   206 | Reverse Linked List | Easy | Iterative, Recursive |
+  327 | Delete Node in a Linked List | Easy | Direct
   344 | Reverse String | Easy | Two Pointers, Recursive |
   
 ## [Ressources](#ressources)
