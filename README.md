@@ -28,6 +28,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   104 | Maximum Depth of Binary Tree | Easy | Recursion |
   112 | Path Sum | Easy | Recursion |
   121 | Best Time to Buy and Sell Stock | Easy | Kadane's, Iterative | 
+  122 | Best Time to Buy and Sell Stock II | Easy | Add Increment
   189 | Rotate Array | Medium | Brute Force, Reverse | 
   206 | Reverse Linked List | Easy | Iterative, Recursive |
   327 | Delete Node in a Linked List | Easy | Direct
@@ -37,4 +38,5 @@ Grinding LeetCode Questions to pass FAANG interviews
 
   - [ ] FisherCoder's Github Repository: https://github.com/fishercoder1534/Leetcode
   - [ ] Gouthampradhan's Github Repository: https://github.com/gouthampradhan/leetcode
+  - [ ] LeetCode Interview Questions: https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
 
