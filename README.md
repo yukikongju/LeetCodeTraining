@@ -22,7 +22,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search | 
   53 | Maximum Subarray | Easy | Kadane's Algorithm |
-  70 | Climbing Stairs | Easy | Recursive Fibonacci |
+  70 | Climbing Stairs | Easy | Recursive Fibonacci, Kadane's Algorithm |
   83 | Remove Duplicates from Sorted List | Easy | Iterative |
   100 | Same Tree | Easy | Recursion |
   101 | Symmetric Tree | Easy | Recursion |
