@@ -35,6 +35,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   189 | Rotate Array | Medium | Brute Force, Reverse | 
   206 | Reverse Linked List | Easy | Iterative, Recursive |
   217 | Contains Duplicate | Easy | Hashset |
+  234 | Palindrom Linked List | Easy | Fast and Slow Pointer | 
   242 | Valid Anagram | Easy | Zero Sum with Auxiliary |
   268 | Missing Number | Easy | Counting with Auxiliary |
   327 | Delete Node in a Linked List | Easy | Direct
