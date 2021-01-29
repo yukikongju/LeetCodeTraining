@@ -28,7 +28,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   101 | Symmetric Tree | Easy | Recursion |
   104 | Maximum Depth of Binary Tree | Easy | Recursion |
   112 | Path Sum | Easy | Recursion |
-  121 | Best Time to Buy and Sell Stock | Easy | Kadane's, Iterative | 
+  121 | Best Time to Buy and Sell Stock | Easy | Kadane's, Iterative, In-Place | 
   122 | Best Time to Buy and Sell Stock II | Easy | Add Increment
   125 | Valid Palindrome | Easy | Two Pointers
   136 | Single Number | Easy | Auxiliary push pop, Maths |
