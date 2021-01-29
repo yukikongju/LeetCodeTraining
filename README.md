@@ -10,7 +10,7 @@ Grinding LeetCode Questions to pass FAANG interviews
 
   Code | Title | Difficulty | Current Solution | Video Explanation | Tag | Status |
   --- | --- | --- | --- | --- | --- | --- |
-  1 | Two Sum | Easy | Brute Force | --- | --- |
+  1 | Two Sum | Easy | Brute Force, One Pass Hashmap | --- | --- |
   3 | Longest Substring Without Repeating Characters | Medium | Two Pointers |
   7 | Reverse Integer | Easy | Modulo | 
   9 | Palindrome Number | Easy | Two Pointers | 
