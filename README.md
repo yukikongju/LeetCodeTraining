@@ -32,6 +32,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   122 | Best Time to Buy and Sell Stock II | Easy | Add Increment
   125 | Valid Palindrome | Easy | Two Pointers
   136 | Single Number | Easy | Auxiliary push pop, Maths |
+  141 | Linked List Cycle | Easy | Hashset |
   189 | Rotate Array | Medium | Brute Force, Reverse | 
   206 | Reverse Linked List | Easy | Iterative, Recursive |
   217 | Contains Duplicate | Easy | Hashset |
