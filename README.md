@@ -38,6 +38,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   242 | Valid Anagram | Easy | Zero Sum Array26 |
   327 | Delete Node in a Linked List | Easy | Direct
   344 | Reverse String | Easy | Two Pointers, Recursive |
+  412 | Fizz Buzz | Easy | Iterative |
   
 ## [Ressources](#ressources)
 
