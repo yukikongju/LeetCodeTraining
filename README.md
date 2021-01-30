@@ -24,6 +24,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   53 | Maximum Subarray | Easy | Kadane's Algorithm |
   70 | Climbing Stairs | Easy | Recursive Fibonacci, Kadane's Algorithm |
   83 | Remove Duplicates from Sorted List | Easy | Iterative |
+  98 | Validate Binary Tree | Medium | Recursive |
   100 | Same Tree | Easy | Recursion |
   101 | Symmetric Tree | Easy | Recursion |
   104 | Maximum Depth of Binary Tree | Easy | Recursion |
