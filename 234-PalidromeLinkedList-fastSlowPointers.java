@@ -6,7 +6,7 @@ class Solution{
 	// 1. Fast pointer at the end; slow pointer at the middle
 	ListNode slow = head, fast = head;
 	while(fast != null && fast.next != null){
-	  fast = fast.next;
+	  fast = fast.next.next;
 	  slow = slow.next;
 	}
 	// 2. reverse
