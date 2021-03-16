@@ -1,7 +1,6 @@
 #!/usr/bin/java
 
 /**
- * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
  *     ListNode next;
@@ -21,7 +20,8 @@ class Solution {
             prev = current;
             current = next;
         }
-        head = prev;
-        return head;
+		return prev;
     }
 }
+
+
