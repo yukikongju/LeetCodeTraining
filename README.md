@@ -35,6 +35,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   125 | Valid Palindrome | Easy | Two Pointers
   136 | Single Number | Easy | Auxiliary push pop, Maths |
   141 | Linked List Cycle | Easy | Hashset |
+  144 | Binary Tree Preorder Traversal | Recursive |
   189 | Rotate Array | Medium | Brute Force, Reverse |
   206 | Reverse Linked List | Easy | Iterative, Recursive |
   217 | Contains Duplicate | Easy | Hashset |
