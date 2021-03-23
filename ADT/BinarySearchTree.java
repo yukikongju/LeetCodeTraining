@@ -67,7 +67,60 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	return node;
     }
 
+    /* public delete(T elem); */
 
+
+    public enum TraversalType{
+	PRE_ORDER,
+	IN_ORDER,
+	POST_ORDER,
+	LEVEL_ORDER
+    }
+
+    public void traverse(TraversalType traversal){
+	switch(traversal){
+	    case PRE_ORDER:
+		preOrderTraversal(root);
+		break;
+	    case IN_ORDER:
+		inOrderTraversal(root);
+		break;
+	    case POST_ORDER:
+		postOrderTraversal(root);
+		break;
+	    case LEVEL_ORDER:
+		/* levelOrderTraversal(root); */
+		break;
+	}
+    }
+
+    private void preOrderTraversal(Node node){
+	if(node != null){
+	    visitNode(node);
+	    preorderTraversal(node.left);
+	    preorderTraversal(node.right);
+	}
+    }
+
+    private void inOrderTraversal(Node node){
+	if(node != null){
+	    inOrderTraversal(node.left);
+	    visitNode(node);
+	    inOrderTraversal(node.right);
+	}
+    }
+
+    private void postOrderTraversal(Node node){
+	if(node != null){
+	    postOrderTraversal(node.left);
+	    postOrderTraversal(node.right);
+	    visitNode(node);
+	}
+    }
+
+    private void visitNode(Node node){ // can be modified depending on clients' needs
+	System.out.println(node);
+    }
 
 }
 
