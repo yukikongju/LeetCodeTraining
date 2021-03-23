@@ -50,5 +50,24 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	return contains(root, elem);
     }
 
+    public void insert(T elem){
+	root = insert(root, elem);
+	nodeCount++;
+    }
+
+    private Node insert(Node node, T elem){
+	if(node == null){
+	    node = new Node(null, null, elem);
+	} else {
+	    int cmp = elem.compareTo(node.elem);
+	    if(cmp < 0) insert(node.left, elem);
+	    else if(cmp > 0) insert(node.right, elem);
+	    // else node.val == elem -> on n'ajoute rien pcq no duplicate
+	}
+	return node;
+    }
+
+
+
 }
 
