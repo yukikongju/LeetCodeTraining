@@ -48,6 +48,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   327 | Delete Node in a Linked List | Easy | Direct
   344 | Reverse String | Easy | Two Pointers, Recursive |
   412 | Fizz Buzz | Easy | Iterative |
+  509 | Fibonacci Number | Easy | Recursive |
   617 | Merge Two Binary Trees | Easy | Recursive |
 
 ## [Ressources](#ressources)
