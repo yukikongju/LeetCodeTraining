@@ -50,7 +50,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   412 | Fizz Buzz | Easy | Iterative |
   509 | Fibonacci Number | Easy | Recursive, Iterative, Sequential |
   617 | Merge Two Binary Trees | Easy | Recursive |
-  912 | Sort An Array | Medium | Selection |
+  912 | Sort An Array | Medium | Selection Sort, Insertion Sort |
 
 ## [Ressources](#ressources)
 
