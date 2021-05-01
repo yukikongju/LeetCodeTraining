@@ -22,6 +22,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search |
   53 | Maximum Subarray | Easy | Kadane's Algorithm |
+  69 | Sqrt(x) | Easy | Type casting
   70 | Climbing Stairs | Easy | Recursive Fibonacci, Kadane's Algorithm |
   83 | Remove Duplicates from Sorted List | Easy | Iterative |
   94 | Binary Tree Inorder Traversal | Medium | Recursive |
@@ -38,6 +39,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   141 | Linked List Cycle | Easy | Hashset |
   144 | Binary Tree Preorder Traversal | Recursive |
   145 | Binary Tree Postorder Traversal | Recursive |
+  167 | Two Sum II - Input Array is sorted | Brute Force |
   189 | Rotate Array | Medium | Brute Force, Reverse |
   206 | Reverse Linked List | Easy | Iterative, Recursive |
   217 | Contains Duplicate | Easy | Hashset |
