@@ -39,7 +39,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   141 | Linked List Cycle | Easy | Hashset |
   144 | Binary Tree Preorder Traversal | Recursive |
   145 | Binary Tree Postorder Traversal | Recursive |
-  167 | Two Sum II - Input Array is sorted | Brute Force |
+  167 | Two Sum II - Input Array is sorted | Brute Force, Two Pointers |
   189 | Rotate Array | Medium | Brute Force, Reverse |
   206 | Reverse Linked List | Easy | Iterative, Recursive |
   217 | Contains Duplicate | Easy | Hashset |
