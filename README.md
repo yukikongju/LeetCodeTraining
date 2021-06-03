@@ -22,6 +22,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search |
   53 | Maximum Subarray | Easy | Kadane's Algorithm |
+  66 | Plus One | Easy | Resize
   69 | Sqrt(x) | Easy | Type casting
   70 | Climbing Stairs | Easy | Recursive Fibonacci, Kadane's Algorithm |
   83 | Remove Duplicates from Sorted List | Easy | Iterative |
@@ -47,8 +48,11 @@ Grinding LeetCode Questions to pass FAANG interviews
   234 | Palindrom Linked List | Easy | Fast and Slow Pointer |
   242 | Valid Anagram | Easy | Zero Sum with Auxiliary |
   268 | Missing Number | Easy | Counting with Auxiliary |
+  283 | Move Zeroes | Easy | Two Pointers |
   327 | Delete Node in a Linked List | Easy | Direct
   344 | Reverse String | Easy | Two Pointers, Recursive |
+  350 | Intersection of Two Arrays II | Easy | HashMap |
+  387 | First Unique Character in a String | Easy | Hashmap
   412 | Fizz Buzz | Easy | Iterative |
   509 | Fibonacci Number | Easy | Recursive, Iterative, Sequential |
   617 | Merge Two Binary Trees | Easy | Recursive |

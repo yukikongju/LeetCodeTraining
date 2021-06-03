@@ -2,15 +2,19 @@
 
 class Solution {
     public int removeDuplicates(int[] nums) {
-        // Two Pointers
-        if(nums.length == 0) return 0;
-        int i = 0;
-        for(int j=1; j< nums.length ; j++){
-            if(nums[j] != nums[i]){
-                i++;
-                nums[i] = nums[j];
-            }
-        }
-        return i + 1;
+	// Two Pointers
+	int count=0, prev=0, next=0;
+	if(nums.length==0) return 0;
+	while(next<nums.length){
+	    if(nums[prev]!=nums[next]){
+		nums[prev+1]=nums[next];
+		prev++;
+		count++;
+
+	    }
+	    next++;
+
+	}
+	return count+1;
     }
 }
