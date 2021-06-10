@@ -12,6 +12,7 @@ Grinding LeetCode Questions to pass FAANG interviews
   --- | --- | --- | --- | --- | --- | --- |
   1 | Two Sum | Easy | Brute Force, One Pass Hashmap | --- | --- |
   3 | Longest Substring Without Repeating Characters | Medium | Two Pointers |
+  5 | Longest Palindromic Substring | Medium | Expansion from middle |
   7 | Reverse Integer | Easy | Modulo |
   9 | Palindrome Number | Easy | Two Pointers |
   11 | Container With Most Water | Medium | Sliding Window Technique |
