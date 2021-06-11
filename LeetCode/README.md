@@ -71,6 +71,7 @@
   268 | Missing Number | Easy | Counting with Auxiliary |
   283 | Move Zeroes | Easy | Two Pointers |
   327 | Delete Node in a Linked List | Easy | Direct
+  328 | Odd Even Linked List | Medium | Iterative |
   344 | Reverse String | Easy | Two Pointers, Recursive |
   350 | Intersection of Two Arrays II | Easy | HashMap |
   387 | First Unique Character in a String | Easy | Hashmap
