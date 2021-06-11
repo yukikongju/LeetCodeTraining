@@ -38,6 +38,9 @@ and use Youtube whenever I get stuck
 3. [LeetCode Top Interview Questions - Hard Collection](https://leetcode.com/explore/featured/card/top-interview-questions-hard/)
 ## Ressources
 
+- [ ] Kenny Talks Code
+- [ ] Colin Galen
+
 
 
 

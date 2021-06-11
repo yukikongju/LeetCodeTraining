@@ -52,6 +52,7 @@
   69 | Sqrt(x) | Easy | Type casting
   70 | Climbing Stairs | Easy | Recursive Fibonacci, Kadane's Algorithm |
   83 | Remove Duplicates from Sorted List | Easy | Iterative |
+  86 | Partition List | Medium | Two List |
   94 | Binary Tree Inorder Traversal | Medium | Recursive |
   98 | Validate Binary Tree | Medium | Recursive |
   100 | Same Tree | Easy | Recursion |
