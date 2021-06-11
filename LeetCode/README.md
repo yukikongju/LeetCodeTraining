@@ -63,6 +63,7 @@
   145 | Binary Tree Postorder Traversal | Easy | Recursive |
   167 | Two Sum II - Input Array is sorted | Easy | Brute Force, Two Pointers |
   189 | Rotate Array | Medium | Brute Force, Reverse |
+  200 | Number of Islands | Medium | Depth First Search |
   206 | Reverse Linked List | Easy | Iterative, Recursive |
   217 | Contains Duplicate | Easy | Hashset |
   226 | Invert Binary Tree | Easy | Recursive |
