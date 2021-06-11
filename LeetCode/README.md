@@ -1,16 +1,35 @@
-Grinding LeetCode Questions to pass FAANG interviews
-
 ## Table of Content
 
+* [Strategies](#strategies)
 * [Algorithms](#algorithms)
 * [Ressources](#ressources)
 
+## [Strategies](#strategies)
+
+#### Arrays
+
+- Two Pointers
+- Sliding Window Technique
+- Expand from center
+
+#### Linked List
+
+- Fast and Slow pointers
+
+#### Trees and Graphs
+
+#### Backtrancking
+
+#### Dynamic Programming
+
+- Kadane's Algorithm
 
 ## [Algorithms](#algorithms)
 
   Code | Title | Difficulty | Current Solution | Video Explanation | Tag | Status |
   --- | --- | --- | --- | --- | --- | --- |
   1 | Two Sum | Easy | Brute Force, One Pass Hashmap | --- | --- |
+  2 | Add Two Numbers | Medium | Iterative |
   3 | Longest Substring Without Repeating Characters | Medium | Two Pointers |
   5 | Longest Palindromic Substring | Medium | Expansion from middle |
   7 | Reverse Integer | Easy | Modulo |
@@ -40,9 +59,9 @@ Grinding LeetCode Questions to pass FAANG interviews
   125 | Valid Palindrome | Easy | Two Pointers
   136 | Single Number | Easy | Auxiliary push pop, Maths |
   141 | Linked List Cycle | Easy | Hashset |
-  144 | Binary Tree Preorder Traversal | Recursive |
-  145 | Binary Tree Postorder Traversal | Recursive |
-  167 | Two Sum II - Input Array is sorted | Brute Force, Two Pointers |
+  144 | Binary Tree Preorder Traversal | Easy | Recursive |
+  145 | Binary Tree Postorder Traversal | Easy | Recursive |
+  167 | Two Sum II - Input Array is sorted | Easy | Brute Force, Two Pointers |
   189 | Rotate Array | Medium | Brute Force, Reverse |
   206 | Reverse Linked List | Easy | Iterative, Recursive |
   217 | Contains Duplicate | Easy | Hashset |
