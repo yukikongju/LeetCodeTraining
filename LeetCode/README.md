@@ -43,6 +43,7 @@
   19 | Remove Nth Node from End of List | Medium | Walker-Runner |
   20 | Valid Parentheses | Easy | Stack, Hashset | |
   21 | Merge Two Sorted Lists | Easy | Recursivity | | |
+  24 | Swap Nodes in Pairs | Medium | Runner |
   26 | Remove Duplicates from Sorted Array | Easy | Delayed Pointer | |
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search |
