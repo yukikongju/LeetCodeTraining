@@ -10,15 +10,18 @@
 
 - Two Pointers
 - Sliding Window Technique
-- Expand from center
+- Expand from Center
 
 #### Linked List
 
 - Fast and Slow pointers
+- Recursion
 
 #### Trees and Graphs
 
-#### Backtrancking
+- DFS/BFS
+
+#### Backtracking
 
 #### Dynamic Programming
 
@@ -37,6 +40,7 @@
   11 | Container With Most Water | Medium | Sliding Window Technique |
   14 | Longest Common Prefix | Easy | --- | |
   15 | 3Sum | Medium | 2Sum II |
+  19 | Remove Nth Node from End of List | Medium | Walker-Runner |
   20 | Valid Parentheses | Easy | Stack, Hashset | |
   21 | Merge Two Sorted Lists | Easy | Recursivity | | |
   26 | Remove Duplicates from Sorted Array | Easy | Delayed Pointer | |
