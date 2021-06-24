@@ -14,7 +14,7 @@ class Solution {
     }
 
     public void dfs(char[][]grid, int line, int column){
-	if(line>=0 && column >=0 && line<grid.length && column<grid[0].length && grid[line][column] == '1'){
+ 	if(line>=0 && column >=0 && line<grid.length && column<grid[0].length && grid[line][column] == '1'){
 	    grid[line][column] = '0';
 	    dfs(grid, line-1, column); // left
 	    dfs(grid, line+1, column); // right

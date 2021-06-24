@@ -14,7 +14,8 @@
 
 #### Linked List
 
-- Fast and Slow pointers
+- Fast and Slow pointers (walker-runner)
+- Catching Up: to make two linked list of different length sync in at the same position, link shortest node onto head of the longest when we hit a null and vice-versa
 - Recursion
 
 #### Trees and Graphs
@@ -67,6 +68,7 @@
   141 | Linked List Cycle | Easy | Hashset |
   144 | Binary Tree Preorder Traversal | Easy | Recursive |
   145 | Binary Tree Postorder Traversal | Easy | Recursive |
+  160 | Intersection of Two Linked List | Medium | Catch Up
   167 | Two Sum II - Input Array is sorted | Easy | Brute Force, Two Pointers |
   189 | Rotate Array | Medium | Brute Force, Reverse |
   200 | Number of Islands | Medium | Depth First Search |
@@ -79,6 +81,7 @@
   283 | Move Zeroes | Easy | Two Pointers |
   327 | Delete Node in a Linked List | Easy | Direct
   328 | Odd Even Linked List | Medium | Iterative |
+  334 | Increasing Triplet Subsequence | Medium | Iterative
   344 | Reverse String | Easy | Two Pointers, Recursive |
   350 | Intersection of Two Arrays II | Easy | HashMap |
   387 | First Unique Character in a String | Easy | Hashmap
