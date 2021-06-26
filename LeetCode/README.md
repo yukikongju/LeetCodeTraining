@@ -49,6 +49,7 @@
   26 | Remove Duplicates from Sorted Array | Easy | Delayed Pointer | |
   27 | Remove Element | Easy | --- | |
   35 | Search Insert Position | Easy | Binary Search |
+  46 | Permutations | Medium | Backtracking |
   53 | Maximum Subarray | Easy | Kadane's Algorithm |
   66 | Plus One | Easy | Resize
   69 | Sqrt(x) | Easy | Type casting
