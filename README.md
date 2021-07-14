@@ -41,7 +41,3 @@ and use Youtube whenever I get stuck
 - [ ] Kenny Talks Code
 - [ ] Colin Galen
 
-
-
-
-
