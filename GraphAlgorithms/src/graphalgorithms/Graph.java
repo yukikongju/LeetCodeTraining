@@ -61,30 +61,16 @@ public class Graph {
 
         @Override
         public boolean equals(Object object) {
-            if (this == object) {
-                return true;
-            }
-            if (object == null || getClass() != object.getClass()) {
-                return false;
-            }
-            if (!super.equals(object)) {
-                return false;
-            }
+            if (this == object) return true;
+            if (object == null || getClass() != object.getClass()) return false;
+            if (!super.equals(object)) return false;
 
             Vertex vertex = (Vertex) object;
 
-            if (dist != vertex.dist) {
-                return false;
-            }
-            if (name != null ? !name.equals(vertex.name) : vertex.name != null) {
-                return false;
-            }
-            if (previous != null ? !previous.equals(vertex.previous) : vertex.previous != null) {
-                return false;
-            }
-            if (neighbours != null ? !neighbours.equals(vertex.neighbours) : vertex.neighbours != null) {
-                return false;
-            }
+            if (dist != vertex.dist) return false;
+            if (name != null ? !name.equals(vertex.name) : vertex.name != null) return false;
+            if (previous != null ? !previous.equals(vertex.previous) : vertex.previous != null) return false;
+            if (neighbours != null ? !neighbours.equals(vertex.neighbours) : vertex.neighbours != null) return false;
 
             return true;
         }
