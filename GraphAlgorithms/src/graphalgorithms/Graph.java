@@ -45,9 +45,7 @@ public class Graph {
 
         @Override
         public int compareTo(Vertex t) {
-            if (dist == t.dist) {
-                return name.compareTo(t.name);
-            }
+            if (dist == t.dist) return name.compareTo(t.name);
             return Integer.compare(dist, t.dist);
         }
 
