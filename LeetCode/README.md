@@ -26,7 +26,9 @@
 
 #### Dynamic Programming
 
-- Kadane's Algorithm
+- Kadane's Algorithm/Fibonacci: save recursion in 2 variables
+- 0/1 Knapsack (bounded dp): we can take each element only once
+- Unbounded Knapsack: we can take each element an infinite number of time
 
 ## [Algorithms](#algorithms)
 
@@ -81,6 +83,7 @@
   242 | Valid Anagram | Easy | Zero Sum with Auxiliary |
   268 | Missing Number | Easy | Counting with Auxiliary |
   283 | Move Zeroes | Easy | Two Pointers |
+  322 | Coin Change | Medium | Unbounded Knapsack |
   327 | Delete Node in a Linked List | Easy | Direct
   328 | Odd Even Linked List | Medium | Iterative |
   334 | Increasing Triplet Subsequence | Medium | Iterative
