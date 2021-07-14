@@ -1,4 +1,4 @@
-## Table of Content
+# Table of Content
 
 * [Strategies](#strategies)
 * [Algorithms](#algorithms)
@@ -83,6 +83,7 @@
   234 | Palindrom Linked List | Easy | Fast and Slow Pointer |
   242 | Valid Anagram | Easy | Zero Sum with Auxiliary |
   268 | Missing Number | Easy | Counting with Auxiliary |
+  278 | First Bad Version | Easy | Iterative |
   283 | Move Zeroes | Easy | Two Pointers |
   322 | Coin Change | Medium | Unbounded Knapsack |
   327 | Delete Node in a Linked List | Easy | Direct
@@ -95,7 +96,7 @@
   509 | Fibonacci Number | Easy | Recursive, Iterative, Sequential |
   518 | Coin Change 2 | Medium | Unbounded Knapsack |
   617 | Merge Two Binary Trees | Easy | Recursive |
-  912 | Sort An Array | Medium | Selection Sort, Insertion Sort, MergeSort |
+  912 | Sort An Array | Medium | Selection Sort, Insertion Sort, MergeSort, Heapsort |
 
 ## [Ressources](#ressources)
 
