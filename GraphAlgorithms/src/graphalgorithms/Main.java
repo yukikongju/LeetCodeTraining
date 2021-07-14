@@ -16,7 +16,7 @@ public class Main {
         new Graph.Edge("d", "e", 6),
         new Graph.Edge("e", "f", 9),};
 
-    public static void main(String[] args) {
+g   public static void main(String[] args) {
 
     }
 
