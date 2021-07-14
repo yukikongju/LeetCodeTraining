@@ -28,6 +28,7 @@
 
 - Kadane's Algorithm/Fibonacci: save recursion in 2 variables
 - 0/1 Knapsack (bounded dp): we can take each element only once
+- Bounded Knapsack:
 - Unbounded Knapsack: we can take each element an infinite number of time
 
 ## [Algorithms](#algorithms)
@@ -92,6 +93,7 @@
   387 | First Unique Character in a String | Easy | Hashmap
   412 | Fizz Buzz | Easy | Iterative |
   509 | Fibonacci Number | Easy | Recursive, Iterative, Sequential |
+  518 | Coin Change 2 | Medium | Unbounded Knapsack |
   617 | Merge Two Binary Trees | Easy | Recursive |
   912 | Sort An Array | Medium | Selection Sort, Insertion Sort, MergeSort |
 
