@@ -5,6 +5,6 @@
 ## Ressources
 
 - [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
-- [SQL Practice](https://www.sql-practice.com/)
+- [X] [SQL Practice](https://www.sql-practice.com/)
 
 
