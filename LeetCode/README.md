@@ -103,4 +103,7 @@
   - [ ] FisherCoder's Github Repository: https://github.com/fishercoder1534/Leetcode
   - [ ] Gouthampradhan's Github Repository: https://github.com/gouthampradhan/leetcode
   - [ ] LeetCode Interview Questions: https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
+  - [ ] [NeetCode Youtube Channel](https://www.youtube.com/c/NeetCode)
+  - [ ] [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
+  - [ ] [LeetCode Patterns - Season Prashad](https://seanprashad.com/leetcode-patterns/)
 
