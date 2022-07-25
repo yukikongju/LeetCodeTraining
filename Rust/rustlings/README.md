@@ -9,8 +9,8 @@
 - [X] structs
 - [X] enums
 - [X] strings
-- [ ] modules
-- [ ] hashmaps
+- [X] modules
+- [X] hashmaps
 - [ ] options
 - [ ] error_handling
 - [ ] generics
