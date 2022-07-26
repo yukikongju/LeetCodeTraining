@@ -11,9 +11,9 @@
 - [X] strings
 - [X] modules
 - [X] hashmaps
-- [ ] options
-- [ ] error_handling
-- [ ] generics
+- [X] options
+- [X] error_handling
+- [X] generics
 - [ ] traits
 - [ ] tests
 - [ ] lifetimes
