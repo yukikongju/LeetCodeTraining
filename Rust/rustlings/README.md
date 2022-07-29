@@ -14,9 +14,9 @@
 - [X] options
 - [X] error_handling
 - [X] generics
-- [ ] traits
-- [ ] tests
-- [ ] lifetimes
+- [X] traits
+- [X] tests
+- [X] lifetimes
 - [ ] standard_library_types
 - [ ] threads
 - [ ] macros
@@ -24,3 +24,6 @@
 - [ ] conversions
 
 
+## Ressources
+
+- [Rustling 2022 Solutions](https://github.com/Enforcer007/2022-rustlings-solutions)
