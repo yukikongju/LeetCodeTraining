@@ -34,20 +34,29 @@
 
 **1.5 Character Input and Output**
 
-- [ ] Exercice 1-6: 
-- [ ] Exercice 1-7: 
-- [ ] Exercice 1-8: 
-- [ ] Exercice 1-9: 
-- [ ] Exercice 1-10: 
-- [ ] Exercice 1-11: 
-- [ ] Exercice 1-12: 
-- [ ] Exercice 1-13: 
-- [ ] Exercice 1-14: 
-- [ ] Exercice 1-15: 
-- [ ] Exercice 1-16: 
-- [ ] Exercice 1-17: 
-- [ ] Exercice 1-18: 
-- [ ] Exercice 1-19: 
+- [ ] Exercice 1-6: Verify that the expression `getchar() != EOF` if 0 or 1
+- [X] Exercice 1-7: Write a program to print the value of EOF
+- [ ] Exercice 1-8: Write a program to count blanks, tab, and new lines
+- [ ] Exercice 1-9: Write a program to copy its input to it> output, replacing each string of one or more blanks by a single blank
+- [ ] Exercice 1-10: Write a program to copy its input to its output, replacing each tab by \t , each backspace by \b, and each backslash by \\ . This makes tabs and backspaces visible in an unambiguous way
+- [ ] Exercice 1-11: How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any?
+- [ ] Exercice 1-12: Write a program that prints its input one word per line
+
+**1.6 Arrays**
+
+- [ ] Exercice 1-13: Write a program to print a histogram of the lengths of words in its input. It is easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging.
+    - [ ] 13a: horizontal
+    - [ ] 13b: vertical
+- [ ] Exercice 1-14: Write a program to print a histogram of the frequencies of different_ characters
+in its input .
+
+**1.7 Functions**
+
+- [X] Exercice 1-15: Rewrite the temperature conversion program of Section 1.2 to use a function for conversion (see 5.c)
+- [ ] Exercice 1-16: Revise the main routine of the longest-line program so it will correctly print the length of arbitrarily long input lines. and as much as possible of the text.
+- [ ] Exercice 1-17: Write a program to print all input lines that are longer than 80 characters.
+- [ ] Exercice 1-18: Write a program to remove trailing blanks and tabs from each line of input, and to delete entirely blank lines.
+- [ ] Exercice 1-19: Write a function `reverse()` that reverses the character string.  Use it to write a program that reverses its input a line at a time.
 - [ ] Exercice 1-20: 
 - [ ] Exercice 1-21: 
 
