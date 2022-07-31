@@ -1,5 +1,6 @@
 # Rustling Exercice Solutions
 
+- [X] intro
 - [X] variables
 - [X] functions
 - [X] if
@@ -17,7 +18,7 @@
 - [X] traits
 - [X] tests
 - [X] lifetimes
-- [ ] standard_library_types
+- [X] standard_library_types
 - [ ] threads
 - [ ] macros
 - [ ] clippy
