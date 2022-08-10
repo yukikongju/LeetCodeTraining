@@ -36,7 +36,7 @@
 
 - [ ] Exercice 1-6: Verify that the expression `getchar() != EOF` if 0 or 1
 - [X] Exercice 1-7: Write a program to print the value of EOF
-- [ ] Exercice 1-8: Write a program to count blanks, tab, and new lines
+- [ ] Exercice 1-8: Write a program to count blanks, tab, and new lines (fixme)
 - [ ] Exercice 1-9: Write a program to copy its input to it> output, replacing each string of one or more blanks by a single blank
 - [ ] Exercice 1-10: Write a program to copy its input to its output, replacing each tab by \t , each backspace by \b, and each backslash by \\ . This makes tabs and backspaces visible in an unambiguous way
 - [ ] Exercice 1-11: How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any?
