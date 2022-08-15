@@ -59,4 +59,7 @@ in its input .
 - [X] Exercice 1-19: Write a function `reverse()` that reverses the character string.  Use it to write a program that reverses its input a line at a time.
 - [ ] Exercice 1-20: 
 - [ ] Exercice 1-21: 
+- [ ] Exercice 1-22: 
+- [ ] Exercice 1-23: 
+- [ ] Exercice 1-24: 
 
