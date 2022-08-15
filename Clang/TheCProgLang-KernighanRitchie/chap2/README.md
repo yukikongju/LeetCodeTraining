@@ -17,7 +17,7 @@
 
 **2.6. Relational and Logical Operators**
 
-- [ ] Exercice 2-2: Write a loop equivalent to the for loop above without && and ||
+- [X] Exercice 2-2: Write a loop equivalent to the for loop above without && and ||
 
 **2.7. Type Conversions**
 
@@ -27,27 +27,33 @@
 
 **2.8. Increment and Decrement Operators**
 
-- [ ] Exercice 2-4: 
-- [ ] Exercice 2-5: 
+- [ ] Exercice 2-4: Write an alternate version of squeeze(s1, s2), that deletes each character in s1 that matches any character in the string s2
+- [ ] Exercice 2-5: Write the function any(s1, s2), which returns the first location in the string s1 where any character from the string s2 occurs, or -1 if s1 contains no characters from s2.
 
 **2.9. Bitwise Operators**
 
-- [ ] Exercice 2-6: 
-- [ ] Exercice 2-7: 
-- [ ] Exercice 2-8: 
+- [ ] Exercice 2-6: Write a function setbits(x, p, n, y) that returns x with the 
+      n bits that begin at position p set to the rightmost n bits of y, leaving 
+      the other bits unchanged.
+- [ ] Exercice 2-7: Write a function invert(x, p, n) that returns x with the 
+      n bits that begin at position p inverted (ie 1 changed into 0 and vice-versa),
+      leaving the others unchanged
+- [ ] Exercice 2-8: Write a runction rightrot(x, n) that returns the value of the 
+      integer x rotated to rhe right by n bit positions
 
 
 **2.10. Assignment Operators and Expressions**
 
-- [ ] Exercice 2-9: 
+- [ ] Exercice 2-9: In a two's complement number system, `x &= (x-1)` deletes 
+      the rightmost 1-bit in x. Use this observation to write a faster 
+      version of bit-count
 
 **2.11. Conditional Expressions**
 
-- [ ] Exercice 2-10: 
+- [ ] Exercice 2-10: Rewrite the function lower, which converts upper case 
+      letters to lower case with a conditional epreddion instead of if-else
 
 **2.12. Precedence and Order of Evaluation**
-
-
 
 
 
