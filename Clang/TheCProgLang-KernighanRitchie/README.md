@@ -1,6 +1,8 @@
 # The C Programming Language by Brian Kernighan and Dennis Ritchie
 
-- [ ] Chap 1: A Tutorial Introduction [on going]
+[Learn C Programming with Dr. Chuck](https://www.youtube.com/watch?v=j-_s8f5K30I&t=1244s)
+
+- [X] Chap 1: A Tutorial Introduction 
 - [ ] Chap 2: Types, Operators and Expressions
 - [ ] Chap 3: Control Flow
 - [ ] Chap 4: Function and Program Structure
@@ -12,4 +14,10 @@
 - [ ] Appendix A: Reference Manual
 - [ ] Appendix B: Reference Manual
 - [ ] Appendix C: Standard Library
+
+# Ressources
+
+Passcode: 42
+
+- [ ] [Dr. Chuck Course on C](https://www.cc4e.com/)
 

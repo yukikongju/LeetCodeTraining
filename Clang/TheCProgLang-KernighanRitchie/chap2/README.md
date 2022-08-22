@@ -56,5 +56,13 @@
 **2.12. Precedence and Order of Evaluation**
 
 
+**Custom Exercices**
 
+- [X] Exercice A: Return length of a string
+- [X] Exercice B: Check if year is leap
+
+
+## Ressources
+
+- [X] [Chapter Online](https://www.cc4e.com/book/chap02.md)
 
