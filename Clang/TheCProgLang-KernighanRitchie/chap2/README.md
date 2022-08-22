@@ -60,6 +60,13 @@
 
 - [X] Exercice A: Return length of a string
 - [X] Exercice B: Check if year is leap
+- [ ] Exercice C: Write atoi() => convert s to integer
+- [ ] Exercice D: Write squeze(s, c) => removes all occurences of char c in string s
+- [X] Exercice E: Write lower(s) => convert string to lowercase
+- [ ] Exercice F: 
+- [ ] Exercice G: 
+- [ ] Exercice H: 
+- [ ] Exercice I: 
 
 
 ## Ressources
