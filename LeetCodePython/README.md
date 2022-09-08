@@ -13,5 +13,5 @@
 
 - [CMU 15-210: Data Structures Notes](http://www.cs.cmu.edu/afs/cs/academic/class/15210-s15/www/lectures/)
 - [NeetCode LeetCode Solutions](https://github.com/neetcode-gh/leetcode/tree/main/python)
-- 
+- [LeetCode - Google Questions](https://leetcode.com/discuss/interview-question/971009/List-of-2020-interview-question-for-Google)
 
