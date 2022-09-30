@@ -59,7 +59,6 @@ def get_scenario_output(scenario):
                 x_pos, y_pos, max_rats = i, j, grid[i][j]
 
     print(grid)
-    #  print(grid[4][4])
 
     return [x_pos, y_pos, max_rats]
     
@@ -95,6 +94,5 @@ file_name = "CP_Halim/chap1/files/10360_rat_attack.in"
 scenarios = read_scenarios(file_name)
 outputs = get_output(scenarios)
 print(outputs)
-
 
 
