@@ -40,6 +40,7 @@ def get_scenario_output(scenario):
     # get scenario input
     d = scenario.get('d')
     nests = scenario.get('nests')
+    #  print(d)
 
     # initialize grid
     grid = [[0 for _ in range(GRID_SIZE)] for _ in range(GRID_SIZE)]
@@ -48,6 +49,7 @@ def get_scenario_output(scenario):
 
     # calculate num of rats reach for all cells
     for x, y, population in nests:
+        print(x, y, population)
         visited = [[False for _ in range(GRID_SIZE)] for _ in range(GRID_SIZE)]
         dfs(grid, visited, x, y, population, d)
 
@@ -58,7 +60,7 @@ def get_scenario_output(scenario):
             if grid[i][j] > max_rats:
                 x_pos, y_pos, max_rats = i, j, grid[i][j]
 
-    print(grid)
+    print(np.array(grid))
 
     return [x_pos, y_pos, max_rats]
     
@@ -72,8 +74,12 @@ def dfs(grid, visited, x, y, population, d): # FIXME: distance
         grid[x][y] += population
         visited[x][y] = True
 
-        dfs(grid, visited, x-1, y, population, d-1)
+        dfs(grid, visited, x-1, y, population, d-1)   # 
+        dfs(grid, visited, x-1, y-1, population, d-1) # upper left
+        dfs(grid, visited, x-1, y+1, population, d-1) # upper left
         dfs(grid, visited, x+1, y, population, d-1)
+        dfs(grid, visited, x+1, y-1, population, d-1)
+        dfs(grid, visited, x+1, y+1, population, d-1)
         dfs(grid, visited, x, y-1, population, d-1)
         dfs(grid, visited, x, y+1, population, d-1)
     
