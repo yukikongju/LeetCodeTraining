@@ -5,13 +5,13 @@
 ## Contents
 
 - [X] Chapter 1 - Introduction
-- [o] Chapter 2 - Starting Out
+- [X] Chapter 2 - Starting Out
     - [X] Ready, Set, Go!
     - [X] Baby's First Functions
     - [X] An Intro to list
     - [X] Texas Range
-    - [ ] I'm a list comprehension
-    - [ ] Tuples
+    - [X] I'm a list comprehension
+    - [X] Tuples
 - [ ] Chapter 3 - Types and Typeclasses
 - [ ] Chapter 4 - Syntax in Functions
 - [ ] Chapter 5 - Recursion
@@ -64,6 +64,8 @@ Blabla
 
 **Tuples**
 
+- using the built-in tuple functions `fst`, `snd`, `zip`
+- using tuple with list comprehension
 
 
 
