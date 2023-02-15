@@ -9,6 +9,12 @@
 2. Ask yourself follow up questions
 3. Frame the question in a real world context
 
+## ToDos
+
+- [ ] 42
+- [ ] 
+
+
 ## Ressources
 
 - [CMU 15-210: Data Structures Notes](http://www.cs.cmu.edu/afs/cs/academic/class/15210-s15/www/lectures/)
