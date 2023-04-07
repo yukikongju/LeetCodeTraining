@@ -2,7 +2,7 @@
 
 - [X] Trik: moving cups (easy)
 - [X] Natrij: Time difference (easy)
-- [.] Tenis: check if match result is valid (missing test case) (easy)
+- [X] Tenis: check if match result is valid (missing test case) (easy)
 - [ ] Liga
 - [ ] Ivana
 - [ ] Dvaput

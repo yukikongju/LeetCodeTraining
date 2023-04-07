@@ -3,7 +3,8 @@
 # (2) Additionally, if the result is 6:6 in the first or second set (but not the third set), a single final game is played to determine the winner of the set (the tie-break game).
 # (3) The match ends when either player has won 2 sets. That player is the winner.
 # (4) federer cannot lose
-# (5) winner cannot wins 2-1 if he won the first two sets (TODO)
+# (5) winner cannot wins 2-1 if he won the first two sets 
+# (6) federer cannot lose a set
 
 # Match rules:
 # (1) the sets score cannot be: "1:0", "1:1" or "3:0"
@@ -40,7 +41,6 @@ def solve(players, n, matchs):
             is_valid = False
             break
 
-
         # compute sets each players wins and verify that set are valid
         first, second = 0, 0
         player1_wins, player2_wins = 0, 0
@@ -50,12 +50,13 @@ def solve(players, n, matchs):
             if not tmp:
                 is_valid = False
             else:
-                winner = get_set_winner(p1, p2)
+                winner = get_set_winner(p1, p2, players[0], players[1])
                 if winner == "p1":
                     player1_wins += 1
-                else:
+                elif winner == "p2":
                     player2_wins += 1
-
+                else:
+                    is_valid = False
 
         # check if match score is valid: not 1-0, 1-1, 3-0
         if (player1_wins == 3) or (player2_wins == 3): # 3-0
@@ -68,8 +69,6 @@ def solve(players, n, matchs):
         # check if loser is federer
         if is_valid and players[get_loser_idx(player1_wins, player2_wins)] == 'federer':
             is_valid = False
-
-
 
         # get prediction
         prediction = 'da' if is_valid else 'ne'
@@ -85,9 +84,11 @@ def get_loser_idx(p1_wins, p2_wins): # asssume that match is valid
         return 0
     else:
         return 1 # p2
-    
 
-def get_set_winner(p1, p2): # assume that set is valid
+
+def get_set_winner(p1, p2, name1, name2): # assume that set is valid
+    if ((p1 > p2) and (name2 == 'federer')) or ((p2 > p1) and (name1 == 'federer')):
+        return "federer"
     if p1 > p2 :
         return "p1"
     else: 
@@ -128,9 +129,9 @@ def print_predictions(matchs, predictions, answers):
         print(f"Match: {match} => Prediction: {pred} ; Answer: {ans}")
     
 def print_failed_predictions(matchs, predictions, answers):
-    for match, ans, pred in zip(matchs, answers, predictions):
+    for i, (match, ans, pred) in enumerate(zip(matchs, answers, predictions)):
         if ans != pred:
-            print(f"Match: {match} => Prediction: {pred} ; Answer: {ans}")
+            print(f"Match {i}: {match} => Prediction: {pred} ; Answer: {ans}")
     
 
 def verify_answer(predictions, answers):
@@ -150,10 +151,10 @@ def main():
         players, n, matchs = read_inputs(input_path)
         answers = read_outputs(output_path)
         predictions = solve(players, n, matchs)
-        print('--------------------------------------------------------')
+        print(f'---------------------- Test Case : {i} -------------------------------')
         #  print_predictions(matchs, predictions, answers)
-        print_failed_predictions(matchs, predictions, answers)
-        #  print(verify_answer(predictions, answers))
+        #  print_failed_predictions(matchs, predictions, answers)
+        print(verify_answer(predictions, answers))
 
     
 def test_cases():
@@ -165,7 +166,7 @@ def test_cases():
     print(f"2-2 : {is_set_valid(2, 2, 2)}") # reject
     print(f"38-40 : {is_set_valid(38, 40, 3)}") # accept
     print(f"36-40 : {is_set_valid(36, 40, 3)}") # reject
-    print(f"6-0 : {is_set_valid(6, 0, 3)}") # accept FIXME; it rejects
+    print(f"6-0 : {is_set_valid(6, 0, 3)}") # accept 
     
 
 if __name__ == "__main__":
