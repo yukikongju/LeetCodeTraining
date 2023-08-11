@@ -9,10 +9,54 @@
 2. Ask yourself follow up questions
 3. Frame the question in a real world context
 
-## ToDos
 
-- [ ] 42
-- [ ] 
+## Types of Problems
+
+**Arrays**
+
+- Hashing
+- Two Pointers
+- Binary Search
+- Sliding Window
+
+**Linked List**
+
+
+**Trees**
+
+
+**Graphs**
+
+- Expanding DFS:
+    - Number of Islands, Max Area of Island, Surrounded Regions, Rotting Oranges, Pacific Water Flow
+- Topological Sort // DFS no cycle:
+    - Course Schedule, Course Schedule II
+- Union Find:
+    - 
+- Shortest Path:
+    - 
+
+**Dynamic Programming**
+
+- Coin Change
+
+**Backtracking**
+
+
+**Heap**
+
+
+**Intervals**
+
+- Insert Intervals, Merge Intervals, Non Overlapping Intervals
+
+**Greedy**
+
+
+**Bit Manipulation**
+
+
+**Maths and Geometry**
 
 
 ## Ressources
