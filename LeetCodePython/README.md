@@ -40,8 +40,9 @@
 
 - Sol1: max(diago + 1, top, left)
     * Coin Change
-- Sol2: DP + DFS:
+- Sol2: [ DFS + caching ] ; [ Backtracking + caching ]
     * Best Time to Buy and Sell Stock with Cooldown
+    * Target Sum
 
 **Backtracking**
 
