@@ -34,13 +34,18 @@
 - Union Find:
     - 
 - Shortest Path:
-    - 
+    - dijkstra
 
 **Dynamic Programming**
 
-- Coin Change
+- Sol1: max(diago + 1, top, left)
+    * Coin Change
+- Sol2: DP + DFS:
+    * Best Time to Buy and Sell Stock with Cooldown
 
 **Backtracking**
+
+- vecteur k prometteur
 
 
 **Heap**
