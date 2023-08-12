@@ -49,6 +49,7 @@
 **Intervals**
 
 - Insert Intervals, Merge Intervals, Non Overlapping Intervals
+    * case 1: not overlapping ; case 2: overlapping: imbricated vs superposed
 
 **Greedy**
 
