@@ -1,5 +1,5 @@
-# LeetCode Solutions in Python
 
+# LeetCode Solutions in Python
 [Blink 75 by Sean Prashad](https://seanprashad.com/leetcode-patterns/)
 [NeetCode 150](https://neetcode.io/practice)
 
@@ -19,7 +19,14 @@
 - Binary Search
 - Sliding Window
 
+**Binary Search**
+
+- Koko eats banana
+
+
 **Linked List**
+
+- fast and slow pointer
 
 
 **Trees**
@@ -57,7 +64,9 @@
 
 **Backtracking**
 
-- vecteur k prometteur
+- vecteur k prometteur:
+    * subsets
+    * N-queens
 
 
 **Heap**
