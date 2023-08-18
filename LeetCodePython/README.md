@@ -24,11 +24,21 @@
 
 **Trees**
 
+- BFS
+- DFS
+
+
+**Stack**
+
+- Decreasing Monotonic Sequence
+    * Daily Temperature
+
 
 **Graphs**
 
-- Expanding DFS:
+- Graph DFS:
     - Number of Islands, Max Area of Island, Surrounded Regions, Rotting Oranges, Pacific Water Flow
+- Graph BFS:
 - Topological Sort // DFS no cycle:
     - Course Schedule, Course Schedule II
 - Union Find:
@@ -43,6 +53,7 @@
 - Sol2: [ DFS + caching ] ; [ Backtracking + caching ]
     * Best Time to Buy and Sell Stock with Cooldown
     * Target Sum
+- Knapsack
 
 **Backtracking**
 
