@@ -1,13 +1,22 @@
-
 # LeetCode Solutions in Python
+
 [Blink 75 by Sean Prashad](https://seanprashad.com/leetcode-patterns/)
 [NeetCode 150](https://neetcode.io/practice)
 
 ## Tips
 
+**Questions to answer**
+
 1. Explain the algorithm, time and space complexity, alternative, ...
 2. Ask yourself follow up questions
 3. Frame the question in a real world context
+
+**How to effectively study**
+
+1. Pick a new problem pattern: sliding window, DFS+DP, monotonic stack, ...
+2. Check problem resolution for that type of problem
+3. Solve that problem by looking at the code template once
+4. Solve a bunch of problems following that patterns without looking at answers
 
 
 ## Types of Problems
@@ -16,12 +25,10 @@
 
 - Hashing
 - Two Pointers
-- Binary Search
 - Sliding Window
-
-**Binary Search**
-
-- Koko eats banana
+- [ ] Binary Search
+    * Koko eats banana
+    * Find Peak Element II (2D)
 
 
 **Linked List**
@@ -37,36 +44,37 @@
 
 **Stack**
 
-- Decreasing Monotonic Sequence
+- [X] Decreasing Monotonic Sequence
     * Daily Temperature
-- Circular Decreasing Monotonic Sequence
+- [-] Circular Decreasing Monotonic Sequence
     * Next Greater Number II
 
 
 **Graphs**
 
-- Graph DFS:
-    - Number of Islands, Max Area of Island, Surrounded Regions, Rotting Oranges, Pacific Water Flow
-- Graph BFS:
-- Topological Sort // DFS no cycle:
-    - Course Schedule, Course Schedule II
+- [X] Graph DFS:
+    * Number of Islands, Max Area of Island, Surrounded Regions, Rotting Oranges, Pacific Water Flow
+- [X] Graph BFS:
+    * Nearest Exit
+- [X] Topological Sort // DFS no cycle:
+    * Course Schedule, Course Schedule II
 - Union Find:
-    - 
+    * 
 - Shortest Path:
-    - dijkstra
+    * dijkstra
 
 **Dynamic Programming**
 
-- Sol1: max(diago + 1, top, left)
+- [X] Sol1: max(diago + 1, top, left)
     * Coin Change
-- Sol2: [ DFS + caching ] ; [ Backtracking + caching ]
+- [X] Sol2: [ DFS + caching ] ; [ Backtracking + caching ]
     * Best Time to Buy and Sell Stock with Cooldown
     * Target Sum
-- Knapsack
+- [X] Knapsack 0-1
 
 **Backtracking**
 
-- vecteur k prometteur:
+- [X] vecteur k prometteur
     * subsets
     * N-queens
 
