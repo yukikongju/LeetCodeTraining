@@ -1,7 +1,7 @@
 # Patterns to Learn - Aug 18, 2023
 
 [ (1) ]
-[1] Greedy
+[1] Greedy (too large)
 [1] Cycle Detection
 [1] Stacks/Queue
     * Implement Queue using Stack
