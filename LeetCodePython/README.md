@@ -62,6 +62,8 @@
     * 
 - Shortest Path:
     * dijkstra
+- [ ] Graph DFS + Heap:
+    * Swim in Rising Water
 
 **Dynamic Programming**
 
