@@ -7,3 +7,9 @@ Aug 17, 2023:
 Aug 19, 2023:
     - [X] DFS + Stack:
 	    * Buy and Sell Stock I/II/III/IV
+
+Aug 20, 2023:
+    - [ ] Binary Search:
+	    * Mountain Array
+
+

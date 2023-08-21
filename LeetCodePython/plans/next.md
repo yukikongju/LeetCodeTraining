@@ -22,11 +22,14 @@
 [3] Lowest Common Ancestor
 [3] Binary Path Sum
 [3] Balanced Binary Tree
+[3] Segment Tree
 
 [ (4) ADVANCED GRAPHS ]
 [4] Shortest Path: Dijkstra, Bellman-Ford
 [4] Minimum Spanning Tree: Prim, Kruskal
 [4] Union-Find: Disjoint Set
+[4] Disjoint Set
+    * Redundant Connection
 [4] Trie
     * Implement Trie
     * Word Search II
