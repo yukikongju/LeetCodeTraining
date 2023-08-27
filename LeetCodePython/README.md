@@ -70,7 +70,8 @@
 - DFS + BFS
 - [X] minHeap // maxHeap
     * Find Safest Path in Grid, Reconstruct 2-Row Binary Matrix
-
+- [ ] Eulerian Paths
+    * Reconstruct Itinery
 
 **Dynamic Programming**
 
