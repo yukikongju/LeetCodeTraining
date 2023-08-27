@@ -9,7 +9,12 @@ Aug 19, 2023:
 	    * Buy and Sell Stock I/II/III/IV
 
 Aug 20, 2023:
-    - [ ] Binary Search:
+    - [X] Binary Search:
 	    * Mountain Array
 
-
+Aug 27, 2023:
+    - [X] BFS+MinHeap:
+	* Swim in Rising Water
+	* Cheapest Flights Within K Stops
+    - [X] Dijkstra
+	* Network Delay Time

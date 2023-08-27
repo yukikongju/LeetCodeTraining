@@ -60,11 +60,15 @@
     * Course Schedule, Course Schedule II
 - Union Find:
     * 
-- Shortest Path:
-    * dijkstra
-- [ ] Graph DFS + Heap:
+- [X] Shortest Path: Dijkstra, Bellman-Ford
+    * Network Delay Time
+    * Cheapest Flights Within K Stops
+- [X] Graph BFS + Heap:
     * Swim in Rising Water
 - DFS + BFS
+- [X] minHeap
+
+
 
 **Dynamic Programming**
 
