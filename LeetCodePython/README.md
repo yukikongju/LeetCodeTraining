@@ -69,7 +69,7 @@
     * Swim in Rising Water
 - DFS + BFS
 - [X] minHeap // maxHeap
-    * Find Safest Path in Grid
+    * Find Safest Path in Grid, Reconstruct 2-Row Binary Matrix
 
 
 **Dynamic Programming**
