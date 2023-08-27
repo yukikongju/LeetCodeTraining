@@ -18,3 +18,4 @@ Aug 27, 2023:
 	* Cheapest Flights Within K Stops
     - [X] Dijkstra
 	* Network Delay Time
+	* Path With Minimum Effort
