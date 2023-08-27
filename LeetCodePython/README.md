@@ -64,6 +64,7 @@
     * dijkstra
 - [ ] Graph DFS + Heap:
     * Swim in Rising Water
+- DFS + BFS
 
 **Dynamic Programming**
 

@@ -1,6 +1,8 @@
 # Book: Competitive Programming - Increasing the Lower Bound of Programming Contests by Steven & Felix Halim
 
 [Browse Problems](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=118)
+[CP Book](https://cpbook.net/)
+[CP Repo](https://github.com/stevenhalim/cpbook-code)
 
 
 ## Chapters

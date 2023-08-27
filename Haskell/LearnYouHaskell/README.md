@@ -12,8 +12,16 @@
     - [X] Texas Range
     - [X] I'm a list comprehension
     - [X] Tuples
-- [ ] Chapter 3 - Types and Typeclasses
+- [X] Chapter 3 - Types and Typeclasses
+    - [X] Believe the type
+    - [X] Type Variables
+    - [X] Typeclasses 101
 - [ ] Chapter 4 - Syntax in Functions
+    - [ ] Pattern Matching
+    - [ ] Guards, guards!
+    - [ ] Where?!
+    - [ ] Let it be
+    - [ ] Case expressions
 - [ ] Chapter 5 - Recursion
 - [ ] Chapter 6 - Higher Order Functions
 - [ ] Chapter 7 - Modules
@@ -60,12 +68,40 @@ Blabla
 
 **I'm a list comprehension**
 
-
+- list comprehension create all combinations: `[ <operations> | <variable init and conditions> ]`
 
 **Tuples**
 
 - using the built-in tuple functions `fst`, `snd`, `zip`
 - using tuple with list comprehension
 
+### Chapter 3 - 
 
+**Believe the type**
+
+- print a variable type with `:t <variable>`
+- declaring function types with `<function_name> <arg1> :: <arg1_type> -> <return type>`
+- Different types: `Int`, `Integer`, `Float`, `String`, `Char`, `Bool`
+
+**Type Variables**
+
+- functions that have type variables are called `polymorphic functions`
+
+**Typeclasses 101**
+
+- "Interfaces": `Eq`, `Ord`, `Show`, `Read`, `Enum`, `Bounded`, `Num`, `Integral`, `Floating`
+
+### Chapter 4 - 
+
+**Pattern Matching**
+
+- declaring recursive function using integral: `lucky :: (Integral a) => a -> String`
+
+**Guards, guards!**
+
+**Where?!**
+
+**Let it be**
+
+**Case expressions**
 
