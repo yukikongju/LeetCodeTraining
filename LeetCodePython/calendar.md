@@ -25,4 +25,7 @@ Aug 27, 2023:
 	* Find Kth largest element in array
     - [X] Prim's Algorithm - minHeap
 	* Min Cost to Connect All Points
+    - [X] Greedy
+	* Find Valid Matrix Given Row and Column Sums
+
 
