@@ -12,10 +12,17 @@ Aug 20, 2023:
     - [X] Binary Search:
 	    * Mountain Array
 
-Aug 27, 2023:
+Aug 26, 2023:
     - [X] BFS+MinHeap:
 	* Swim in Rising Water
 	* Cheapest Flights Within K Stops
     - [X] Dijkstra
 	* Network Delay Time
 	* Path With Minimum Effort
+
+Aug 27, 2023:
+    - [X] MinHeap
+	* Find Kth largest element in array
+    - [X] Prim's Algorithm - minHeap
+	* Min Cost to Connect All Points
+

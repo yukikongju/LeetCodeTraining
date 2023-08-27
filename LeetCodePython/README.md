@@ -60,6 +60,8 @@
     * Course Schedule, Course Schedule II
 - Union Find:
     * 
+- [X] Minimum Spanning Tree
+    * Minimum Cost to Connect All Points
 - [X] Shortest Path: Dijkstra, Bellman-Ford
     * Network Delay Time
     * Cheapest Flights Within K Stops
