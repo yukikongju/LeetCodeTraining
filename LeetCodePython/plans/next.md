@@ -25,8 +25,6 @@
 [3] Segment Tree
 
 [ (4) ADVANCED GRAPHS ]
-[4] Shortest Path: Dijkstra, Bellman-Ford
-[4] Minimum Spanning Tree: Prim, Kruskal
 [4] Union-Find: Disjoint Set
 [4] Disjoint Set
     * Redundant Connection
@@ -52,4 +50,6 @@
 
 [-] Monotonic Stack (Aug 19, 2023)
     * Next Greater Element I/II/III
+[-] Shortest Path: Dijkstra, Bellman-Ford (Aug 26, 2023)
+[-] Minimum Spanning Tree: Prim, Kruskal (Aug 27, 2023)
 

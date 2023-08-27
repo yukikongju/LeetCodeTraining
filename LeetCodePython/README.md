@@ -68,8 +68,8 @@
 - [X] Graph BFS + Heap:
     * Swim in Rising Water
 - DFS + BFS
-- [X] minHeap
-
+- [X] minHeap // maxHeap
+    * Find Safest Path in Grid
 
 
 **Dynamic Programming**
