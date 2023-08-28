@@ -101,6 +101,8 @@
 
 - [ ] Sum Row/Cols
     * Find Valid Matrix Given Row and Column Sums
+- [ ] Greedy + Stack
+    * Remove K Digits 
 
 **Bit Manipulation**
 

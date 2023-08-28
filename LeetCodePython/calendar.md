@@ -29,4 +29,6 @@ Aug 27, 2023:
 	* Find Valid Matrix Given Row and Column Sums
 	* Reconstruct 2-Row Binary Matrix
 
-
+Aug 28, 2023:
+    - [ ] Greedy + Stack
+	* Remove K Digits 
