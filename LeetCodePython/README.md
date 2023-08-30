@@ -48,6 +48,9 @@
     * Daily Temperature
 - [-] Circular Decreasing Monotonic Sequence
     * Next Greater Number II
+- [X] Balanced: Stack + Pointer for last
+    * Minimum Swaps to make String Balanced, Minimum Remove to Make Valid Parentheses
+
 
 
 **Graphs**

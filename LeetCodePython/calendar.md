@@ -30,8 +30,10 @@ Aug 27, 2023:
 	* Reconstruct 2-Row Binary Matrix
 
 Aug 28, 2023:
-    - [ ] Greedy + Stack
+    - [X] Greedy + Stack
 	* Remove K Digits 
 	* Minimum Swaps to Make String Balanced
 
-
+Aug 30, 2023:
+    - [ ] Balanced Stack -> only add if balanced > 0 ; remove excess afterward
+	* Minimum Remove to Make Valid Parentheses
