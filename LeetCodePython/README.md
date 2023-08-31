@@ -66,9 +66,10 @@
     * 
 - [X] Minimum Spanning Tree
     * Minimum Cost to Connect All Points
-- [X] Shortest Path: Dijkstra, Bellman-Ford
+- [X] Shortest Path: Dijkstra, Bellman-Ford, Floyd-Warshall
     * Network Delay Time
     * Cheapest Flights Within K Stops
+    * FindCityWithSmallestNumberOfNeighborsAtThresholdDistance
 - [X] Graph BFS + Heap:
     * Swim in Rising Water
 - DFS + BFS
