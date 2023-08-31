@@ -46,6 +46,7 @@
 
 - [X] Decreasing Monotonic Sequence
     * Daily Temperature
+    * SmallestSubsequenceOfDistinctCharacter
 - [-] Circular Decreasing Monotonic Sequence
     * Next Greater Number II
 - [X] Balanced: Stack + Pointer for last
