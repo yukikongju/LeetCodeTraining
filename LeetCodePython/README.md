@@ -46,7 +46,6 @@
 
 - [X] Decreasing Monotonic Sequence
     * Daily Temperature
-    * SmallestSubsequenceOfDistinctCharacter
     * Monotone Increasing Digits
 - [-] Circular Decreasing Monotonic Sequence
     * Next Greater Number II
@@ -56,6 +55,8 @@
     * Minimum Insertions to Balance a Parentheses String
 - [-] Balanced Parentheses: Forward-Backward Pass
     * Check if a Parentheses String Can Be Valid, Valid Parenthesis String
+- [ ] Monotonic Stack + HashMap
+    * Smallest Subsequence Of Distinct Character, Remove Duplicate Letters
 
 
 **Graphs**
