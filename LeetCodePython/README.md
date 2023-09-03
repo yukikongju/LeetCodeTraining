@@ -54,8 +54,8 @@
     * Minimum Swaps to make String Balanced, Minimum Remove to Make Valid Parentheses
 - [-] Balanced Parentheses
     * Minimum Insertions to Balance a Parentheses String
-    * Check if a Parentheses String Can Be Valid => forward and backward pass
-
+- [-] Balanced Parentheses: Forward-Backward Pass
+    * Check if a Parentheses String Can Be Valid, Valid Parenthesis String
 
 
 **Graphs**
