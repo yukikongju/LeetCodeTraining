@@ -52,7 +52,9 @@
     * Next Greater Number II
 - [X] Balanced: Stack + Pointer for last
     * Minimum Swaps to make String Balanced, Minimum Remove to Make Valid Parentheses
+- [-] Balanced Parentheses
     * Minimum Insertions to Balance a Parentheses String
+    * Check if a Parentheses String Can Be Valid => forward and backward pass
 
 
 
