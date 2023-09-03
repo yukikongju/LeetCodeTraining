@@ -35,5 +35,9 @@ Aug 28, 2023:
 	* Minimum Swaps to Make String Balanced
 
 Aug 30, 2023:
-    - [ ] Balanced Stack -> only add if balanced > 0 ; remove excess afterward
+    - [X] Balanced Stack -> only add if balanced > 0 ; remove excess afterward
 	* Minimum Remove to Make Valid Parentheses
+
+Sep 03, 2023:
+    - [X] String Replace && Balanced Stack
+	* Minimum Insertions to Balance a Parentheses String
