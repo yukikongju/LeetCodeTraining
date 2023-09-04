@@ -26,6 +26,8 @@
 - Hashing
 - Two Pointers
 - Sliding Window
+- [X] Palindrome => increment by 2 if letter can be paired
+    * Largest Palindromic Number
 - [ ] Binary Search
     * Koko eats banana
     * Find Peak Element II (2D)
