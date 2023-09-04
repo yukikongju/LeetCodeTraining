@@ -43,3 +43,8 @@ Sep 03, 2023:
 	* Minimum Insertions to Balance a Parentheses String
 	* Check if a Parentheses String Can Be Valid => forward and backward pass
 	* Valid Parenthesis String
+
+Sep 04, 2023:
+    - [X] Hashmap + Greedy
+	* Minimum Deletions to Make Character Frequencies Unique
+

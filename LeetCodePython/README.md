@@ -23,7 +23,8 @@
 
 **Arrays**
 
-- Hashing
+- [X] Hashmap + Greedy
+    * Minimum Deletions to Make Character Frequencies Unique
 - Two Pointers
 - Sliding Window
 - [X] Palindrome => increment by 2 if letter can be paired
