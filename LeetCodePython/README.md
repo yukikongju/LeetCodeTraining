@@ -101,6 +101,8 @@
 
 **Heap**
 
+- [X] Counts
+    * Least Number of Unique Integers after K Removals
 
 **Intervals**
 
