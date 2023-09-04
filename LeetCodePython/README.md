@@ -113,6 +113,9 @@
     * Find Valid Matrix Given Row and Column Sums
 - [ ] Greedy + Stack
     * Remove K Digits, Find Most Competitive Subsequence
+- [ ] Subsequence
+    * Increasing Triplet Subsequence
+
 
 **Bit Manipulation**
 
