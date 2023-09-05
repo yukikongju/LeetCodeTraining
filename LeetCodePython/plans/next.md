@@ -1,7 +1,6 @@
 # Patterns to Learn - Aug 18, 2023
 
 [ (1) ]
-[1] Greedy (too large)
 [1] Cycle Detection
 [1] Stacks/Queue
     * Implement Queue using Stack
@@ -52,4 +51,6 @@
     * Next Greater Element I/II/III
 [-] Shortest Path: Dijkstra, Bellman-Ford (Aug 26, 2023)
 [-] Minimum Spanning Tree: Prim, Kruskal (Aug 27, 2023)
+[-] Greedy (too large) (Sep 02, 2023)
+[-] minHeap // maxHeap (Sep 04, 2023)
 
