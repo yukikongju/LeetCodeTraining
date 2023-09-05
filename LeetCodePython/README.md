@@ -115,9 +115,11 @@
 
 **Greedy**
 
+- [X] Sort + Greedy
+    * Miximum Ice Cream Bars
 - [ ] Sum Row/Cols
     * Find Valid Matrix Given Row and Column Sums
-- [ ] Greedy + Stack
+- [X] Greedy + Stack
     * Remove K Digits, Find Most Competitive Subsequence
 - [ ] Subsequence
     * Increasing Triplet Subsequence
