@@ -127,8 +127,10 @@
 
 **Maths and Geometry**
 
-- Modulo
+- [ ] Modulo
     * Bulb Switcher II
+- [ ] Addition/Substractions
+    * Maximum Score from Removing Stones
 
 
 ## Ressources
