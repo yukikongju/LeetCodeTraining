@@ -7,7 +7,10 @@
     * Evaluate Reverse Polish Notation
 
 [ (2) Array ]
+[2] Prefix Sum
+    * Longest Well-Performing Interval
 [2] Sliding Window: Kadane's Algorithm
+    * 
 [2] Substring
     * Longest Palindromic Substring
 [2] Binary Search
@@ -42,7 +45,7 @@
 
 
 [ (6) Maths and Geometry ]
-[6]
+[6] Modulo
 
 
 **Completed**
