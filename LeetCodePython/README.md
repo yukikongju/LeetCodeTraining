@@ -33,7 +33,7 @@
 - [ ] Binary Search
     * Koko eats banana
     * Find Peak Element II (2D)
-- [ ] Prefix Sum
+- [ ] Prefix Sum - Mountain Array
     * Longest Mountain in Array
 
 
