@@ -12,6 +12,7 @@
 - [ ] [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/description/)
 - [ ] [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/)
 - [ ] [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)
+- [ ] [Longest Path With Different Adjaccent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/)
 
 
 
