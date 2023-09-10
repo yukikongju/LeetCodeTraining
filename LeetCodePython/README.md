@@ -46,7 +46,7 @@
 **Trees**
 
 - BFS
-- DFS
+- [X] DFS: Traverse all nodes with stack
 
 
 **Stack**
