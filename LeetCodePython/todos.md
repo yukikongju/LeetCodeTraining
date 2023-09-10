@@ -13,6 +13,10 @@
 - [ ] [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/)
 - [ ] [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)
 - [ ] [Longest Path With Different Adjaccent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/)
+- [ ] [Where will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/description/)
+- [ ] [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)
 
 
+**Trees**
 
+- [ ] [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
