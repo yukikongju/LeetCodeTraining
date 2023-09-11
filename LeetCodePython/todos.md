@@ -17,6 +17,11 @@
 - [ ] [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)
 
 
+**Greedy**
+
+- [ ] [Minimum of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/solutions/1031079/python-3-steps/)
+
+
 **Trees**
 
 - [ ] [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
