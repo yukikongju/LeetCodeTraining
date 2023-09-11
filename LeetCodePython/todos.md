@@ -16,6 +16,10 @@
 - [ ] [Where will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/description/)
 - [ ] [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)
 
+**Maths**
+
+- [ ] [Prime Pairs with Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)
+
 
 **Greedy**
 
