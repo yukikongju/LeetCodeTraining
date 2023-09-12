@@ -16,6 +16,11 @@
 - [ ] [Where will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/description/)
 - [ ] [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)
 
+**Stack**
+
+- [ ] [Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/)
+
+
 **Maths**
 
 - [ ] [Prime Pairs with Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)
