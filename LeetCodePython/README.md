@@ -52,6 +52,7 @@
     * Balanced Binary Tree
 - [-] In-order DFS Traversal
     * Minimum Absolute Difference in BST
+    * Kth Smallest Element in a BST
 - [ ] Lowest Common Ancestor
 - [X] Diameter of Tree
     * Diameter of Binary Tree
