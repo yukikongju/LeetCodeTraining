@@ -53,9 +53,10 @@
 - [-] In-order DFS Traversal
     * Minimum Absolute Difference in BST
 - [ ] Lowest Common Ancestor
-- [ ] Diameter of Tree
+- [X] Diameter of Tree
     * Diameter of Binary Tree
-
+- [X] Same Tree
+    * Subtree of Another Tree
 
 **Stack**
 
