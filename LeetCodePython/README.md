@@ -101,6 +101,7 @@
 - [X] Sol2: [ DFS + caching ] ; [ Backtracking + caching ]
     * Best Time to Buy and Sell Stock with Cooldown
     * Target Sum
+    * Longest INcreasing Path in Matrix
 - [X] Knapsack 0-1
 
 **Backtracking**
