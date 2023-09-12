@@ -52,6 +52,10 @@
     * Balanced Binary Tree
 - [-] In-order DFS Traversal
     * Minimum Absolute Difference in BST
+- [ ] Lowest Common Ancestor
+- [ ] Diameter of Tree
+    * Diameter of Binary Tree
+
 
 **Stack**
 
@@ -101,7 +105,7 @@
 - [X] Sol2: [ DFS + caching ] ; [ Backtracking + caching ]
     * Best Time to Buy and Sell Stock with Cooldown
     * Target Sum
-    * Longest INcreasing Path in Matrix
+    * Longest Increasing Path in Matrix, Number of Increasing Path in a Grid, Maximum Strictly Increasing Cells in a Matrix
 - [X] Knapsack 0-1
 
 **Backtracking**
