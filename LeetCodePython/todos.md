@@ -16,6 +16,12 @@
 - [ ] [Where will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/description/)
 - [ ] [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)
 
+**Backtrack and Memoization**
+
+- [ ] [Minimize Differnece Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/description/)
+
+
+
 **Stack**
 
 - [ ] [Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/)

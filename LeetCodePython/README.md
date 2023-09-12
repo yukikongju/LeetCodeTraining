@@ -48,7 +48,8 @@
 
 - BFS
 - [X] DFS: Traverse all nodes with stack
-
+- [ ] Balanced Tree
+    * Balanced Binary Tree
 
 **Stack**
 
@@ -102,6 +103,8 @@
 
 **Backtracking**
 
+- [ ] Backtrack + Memoization:
+    * 
 - [X] vecteur k prometteur
     * subsets
     * N-queens
