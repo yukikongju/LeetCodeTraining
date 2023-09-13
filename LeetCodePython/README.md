@@ -46,13 +46,16 @@
 
 **Trees**
 
-- BFS
+- [X] BFS // Post-order Traversal
+    * Binary Tree Right Side View
 - [X] DFS: Traverse all nodes with stack
-- [ ] Balanced Tree
+- [X] Balanced Tree
     * Balanced Binary Tree
 - [-] In-order DFS Traversal
     * Minimum Absolute Difference in BST
     * Kth Smallest Element in a BST
+- [X] Preorder Traversal (parent then childs)
+    * Count Good Nodes in Binary Tree
 - [ ] Lowest Common Ancestor
 - [X] Diameter of Tree
     * Diameter of Binary Tree
