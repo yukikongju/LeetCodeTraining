@@ -15,10 +15,14 @@
 - [ ] [Longest Path With Different Adjaccent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/)
 - [ ] [Where will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/description/)
 - [ ] [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)
+- [ ] [Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/description/)
+- [ ] [Burst Ballons](https://leetcode.com/problems/burst-balloons/description/)
 
 **Backtrack and Memoization**
 
 - [ ] [Minimize Differnece Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/description/)
+- [ ] [Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)
+- [ ] [Maximum Strictly INcreasing Cells in a Matrix](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/description/)
 
 
 
@@ -40,3 +44,5 @@
 **Trees**
 
 - [ ] [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
+- [ ] [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/description/)
+
