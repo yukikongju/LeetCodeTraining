@@ -41,27 +41,31 @@
 
 **Linked List**
 
-- fast and slow pointer
+- [ ] fast and slow pointer
 
 
 **Trees**
 
-- [X] BFS // Post-order Traversal
+- [X] BFS // Level Order Traversal
     * Binary Tree Right Side View
-    * Kth Largest Sum in Binary Tree
 - [X] DFS: Traverse all nodes with stack
 - [X] Balanced Tree
     * Balanced Binary Tree
 - [-] In-order DFS Traversal
     * Minimum Absolute Difference in BST
     * Kth Smallest Element in a BST
-- [X] Preorder Traversal (parent then childs)
+- [X] Preorder Traversal (parent then childs) // Post-order Traversal
     * Count Good Nodes in Binary Tree
 - [ ] Lowest Common Ancestor
 - [X] Diameter of Tree
     * Diameter of Binary Tree
 - [X] Same Tree
     * Subtree of Another Tree
+- [ ] Find Cousins
+    * Cousins in Binary Tree
+- [X] Level Order Traversal + maxHeap
+    * Kth Largest Sum in Binary Tree
+
 
 **Stack**
 

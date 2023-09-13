@@ -17,6 +17,7 @@
 - [ ] [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)
 - [ ] [Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/description/)
 - [ ] [Burst Ballons](https://leetcode.com/problems/burst-balloons/description/)
+- [ ] [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)
 
 **Backtrack and Memoization**
 
