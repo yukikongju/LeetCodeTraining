@@ -46,6 +46,8 @@
 
 **Trees**
 
+- [X] Tree to Graph
+    * Amount of Time for Binary Tree to Be Infected
 - [X] BFS // Level Order Traversal
     * Binary Tree Right Side View
 - [X] DFS: Traverse all nodes with stack
@@ -67,7 +69,7 @@
     * Cousins in Binary Tree
 - [X] Level Order Traversal + maxHeap
     * Kth Largest Sum in Binary Tree
-- [ ] Delete Nodes
+- [-] Delete Nodes
     * Delete Leaves With a Given Value
 
 **Stack**
