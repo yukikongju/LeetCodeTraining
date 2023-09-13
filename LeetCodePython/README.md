@@ -49,6 +49,7 @@
 - [X] BFS // Level Order Traversal
     * Binary Tree Right Side View
 - [X] DFS: Traverse all nodes with stack
+    * Minimum Fuel Cost to Report to the Capital
 - [X] Balanced Tree
     * Balanced Binary Tree
 - [-] In-order DFS Traversal
