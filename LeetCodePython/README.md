@@ -125,8 +125,8 @@
 
 **Backtracking**
 
-- [ ] Backtrack + Memoization:
-    * 
+- [-] Backtrack + Memoization:
+    * Minimize the Difference Between Target and Chosen Elements
 - [X] vecteur k prometteur
     * subsets
     * N-queens
