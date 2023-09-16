@@ -127,6 +127,7 @@
 
 - [-] Backtrack + Memoization:
     * Minimize the Difference Between Target and Chosen Elements
+    * Number of Increasing Paths in a grid
 - [X] vecteur k prometteur
     * subsets
     * N-queens
