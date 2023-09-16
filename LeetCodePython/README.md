@@ -65,12 +65,14 @@
     * Diameter of Binary Tree
 - [X] Same Tree
     * Subtree of Another Tree
-- [ ] Find Cousins
+- [-] Find Cousins: BFS-ish
     * Cousins in Binary Tree
 - [X] Level Order Traversal + maxHeap
     * Kth Largest Sum in Binary Tree
 - [-] Delete Nodes
     * Delete Leaves With a Given Value
+- [-] Construct Tree from Traversal
+    * Construct Binary Tree from Preorder Traversal
 
 **Stack**
 
