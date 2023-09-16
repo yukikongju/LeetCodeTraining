@@ -71,8 +71,9 @@
     * Kth Largest Sum in Binary Tree
 - [-] Delete Nodes
     * Delete Leaves With a Given Value
-- [-] Construct Tree from Traversal
-    * Construct Binary Tree from Preorder Traversal
+- [X] Construct Tree from Traversal
+    * Construct Binary Tree from Preorder and Inorder Traversal
+    * Construct Binary Tree from Inorder and Postorder Traversal
 
 **Stack**
 
