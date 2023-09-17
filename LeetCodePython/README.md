@@ -88,9 +88,10 @@
     * Minimum Insertions to Balance a Parentheses String
 - [-] Balanced Parentheses: Forward-Backward Pass
     * Check if a Parentheses String Can Be Valid, Valid Parenthesis String
-- [ ] Monotonic Stack + HashMap
+- [X] Monotonic Stack + HashMap
     * Smallest Subsequence Of Distinct Character, Remove Duplicate Letters
-
+- [ ] PEMDAS
+    * Basic Calculator
 
 **Graphs**
 
@@ -164,6 +165,7 @@
 
 - [ ] Modulo
     * Bulb Switcher II
+    * Ugly Number
 - [ ] Addition/Substractions
     * Maximum Score from Removing Stones
 
