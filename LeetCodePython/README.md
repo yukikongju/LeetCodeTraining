@@ -119,6 +119,8 @@
 
 **Dynamic Programming**
 
+- [-] 1D DP
+    * Perfect Squares
 - [X] Sol1: max(diago + 1, top, left)
     * Coin Change
 - [X] Sol2: [ DFS + caching ] ; [ Backtracking + caching ]
