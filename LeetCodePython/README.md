@@ -160,6 +160,8 @@
 
 **Bit Manipulation**
 
+- [ ] XOR: `a ^ b = c <=> a ^ c = b`
+    * Find the Original Array of Prefix XOR
 
 **Maths and Geometry**
 
