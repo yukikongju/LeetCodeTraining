@@ -27,8 +27,8 @@
     * Minimum Deletions to Make Character Frequencies Unique
 - [X] Hashmap: frequency count
     * Minimum Number of People to Teach
-- Two Pointers
-- Sliding Window
+- [ ] Two Pointers
+- [ ] Sliding Window
 - [X] Palindrome => increment by 2 if letter can be paired
     * Largest Palindromic Number
 - [ ] Binary Search
