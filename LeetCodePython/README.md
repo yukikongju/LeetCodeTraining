@@ -167,7 +167,7 @@
 
 - [ ] Modulo
     * Bulb Switcher II
-    * Ugly Number
+    * Ugly Number I/II
 - [ ] Addition/Substractions
     * Maximum Score from Removing Stones
 
