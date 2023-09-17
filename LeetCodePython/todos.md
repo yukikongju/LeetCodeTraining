@@ -18,6 +18,7 @@
 - [ ] [Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/description/)
 - [ ] [Burst Ballons](https://leetcode.com/problems/burst-balloons/description/)
 - [ ] [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)
+- [ ] [Additive NUmber](https://leetcode.com/problems/additive-number/)
 
 **Backtrack and Memoization**
 
@@ -30,6 +31,13 @@
 
 - [ ] [Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/)
 - [ ] [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)
+**Dynamic Programming**
+
+- [ ] [Ways to Express and Integer as Sum of Power](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/)
+
+**Bitwise**
+
+- [Game Of Life](https://leetcode.com/problems/game-of-life/)
 
 
 **Maths**

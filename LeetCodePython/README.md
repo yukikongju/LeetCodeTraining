@@ -116,11 +116,13 @@
     * Find Safest Path in Grid, Reconstruct 2-Row Binary Matrix
 - [ ] Eulerian Paths
     * Reconstruct Itinery
+- [ ] In-place Manipulation
+    * Game of Life
 
 **Dynamic Programming**
 
 - [-] 1D DP
-    * Perfect Squares
+    * Perfect Squares, Ways to Express and Integer as Sum of Powe
 - [X] Sol1: max(diago + 1, top, left)
     * Coin Change
 - [X] Sol2: [ DFS + caching ] ; [ Backtracking + caching ]
@@ -164,6 +166,8 @@
 
 - [ ] XOR: `a ^ b = c <=> a ^ c = b`
     * Find the Original Array of Prefix XOR
+- [ ] Bitwise - In-place
+    * Game of Life
 
 **Maths and Geometry**
 
