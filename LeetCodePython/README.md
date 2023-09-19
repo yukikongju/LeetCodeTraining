@@ -23,6 +23,8 @@
 
 **Arrays**
 
+- [X] Running Sum
+    * Find the Highest Altitude
 - [X] Hashmap + Greedy
     * Minimum Deletions to Make Character Frequencies Unique
 - [X] Hashmap: frequency count
