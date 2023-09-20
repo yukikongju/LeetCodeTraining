@@ -32,7 +32,8 @@
 - [-] Hashmap: frequency count + Complement
     * Count Good Meals (complement)
 - [ ] Two Pointers
-- [ ] Sliding Window
+- [X] Hard Sliding Window
+    * Maximum Number of Vowels in Substring
 - [X] Palindrome => increment by 2 if letter can be paired
     * Largest Palindromic Number
 - [ ] Binary Search
