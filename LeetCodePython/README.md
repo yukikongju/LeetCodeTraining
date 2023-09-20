@@ -29,6 +29,7 @@
     * Minimum Deletions to Make Character Frequencies Unique
 - [X] Hashmap: frequency count
     * Minimum Number of People to Teach
+- [-] Hashmap: frequency count + Complement
     * Count Good Meals (complement)
 - [ ] Two Pointers
 - [ ] Sliding Window
@@ -39,6 +40,8 @@
     * Find Peak Element II (2D)
 - [ ] Prefix Sum - Mountain Array
     * Longest Mountain in Array
+- [ ] Set + Retry from beginning when adding to set
+    * Find All Possible Recipes from Given Supplies
 
 
 
