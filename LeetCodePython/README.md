@@ -102,6 +102,8 @@
     * Smallest Subsequence Of Distinct Character, Remove Duplicate Letters
 - [ ] PEMDAS
     * Basic Calculator
+- [-] pop if equal values
+    * Asteroid Collision
 
 **Graphs**
 
