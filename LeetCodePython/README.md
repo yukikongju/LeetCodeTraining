@@ -34,8 +34,9 @@
 - [ ] Two Pointers
 - [X] Hard Sliding Window
     * Maximum Number of Vowels in Substring
-- [X] Sliding Window - counter increment
+- [X] Sliding Window - Count Contiguous Subarrays
     * Number of Zero-Filled Subarrays, Number of Smooth Descent Periods
+    * Max Consecutive Ones III, 
 - [X] Palindrome => increment by 2 if letter can be paired
     * Largest Palindromic Number
 - [ ] Binary Search
