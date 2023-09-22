@@ -36,7 +36,7 @@
     * Maximum Number of Vowels in Substring
 - [X] Sliding Window - Count Contiguous Subarrays
     * Number of Zero-Filled Subarrays, Number of Smooth Descent Periods
-    * Max Consecutive Ones III, 
+    * Max Consecutive Ones III, SubarrayProductLessThanK
 - [X] Palindrome => increment by 2 if letter can be paired
     * Largest Palindromic Number
 - [ ] Binary Search
