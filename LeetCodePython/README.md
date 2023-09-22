@@ -51,7 +51,8 @@
 
 **Linked List**
 
-- [ ] fast and slow pointer
+- [ ] fast and slow pointer + Reverse Linked List
+    * Maximum Twin Sum of A Linked List
 
 
 **Trees**
