@@ -3,6 +3,11 @@
 [CSE Problem Set](https://cses.fi/problemset/)
 
 
+**Introductory Problems**
+
+- [X] Weird Algorithm
+
+
 **Graph Problems**
 
 - [-] Counting Rooms
