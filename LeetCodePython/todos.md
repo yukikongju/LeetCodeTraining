@@ -18,7 +18,7 @@
 - [ ] [Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/description/)
 - [ ] [Burst Ballons](https://leetcode.com/problems/burst-balloons/description/)
 - [ ] [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)
-- [ ] [Additive NUmber](https://leetcode.com/problems/additive-number/)
+- [X] [Additive Number](https://leetcode.com/problems/additive-number/)
 
 **Backtrack and Memoization**
 

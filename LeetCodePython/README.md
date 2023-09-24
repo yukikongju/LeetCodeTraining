@@ -46,8 +46,8 @@
     * Longest Mountain in Array
 - [ ] Set + Retry from beginning when adding to set
     * Find All Possible Recipes from Given Supplies
-
-
+- [-] Checking previous
+    * Additive Number
 
 **Linked List**
 
