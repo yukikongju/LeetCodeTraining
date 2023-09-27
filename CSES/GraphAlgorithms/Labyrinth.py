@@ -10,45 +10,41 @@ for i in range(m):
         if cell == 'A': start = (i, j)
         if cell == 'B': end = (i, j)
 
-#  print(m, n)
-#  print(maze)
-#  print(start, end)
 
 # --- 2. BFS to find shortest path
+#  visited = set()
 queue = [(start[0], start[1], '')]
-visited = set()
 directions = [ (-1, 0, 'U'), (1, 0, 'D'), (0, 1, 'R'), (0, -1, 'L') ]
-has_path = False
+has_path = [False]
 
 
 def bfs(i, j, path):
-    visited.add((i, j))
-
-    #  print(i, j, path)
+    #  visited.add((i, j))
 
     # check if we reached end
     if maze[i][j] == 'B':
         print('YES')
         print(len(path))
         print(path)
-        has_path = True
+        has_path[0] = True
+        return
+    else:
+        maze[i][j] = 'X'
 
-    # visited neighbors
-    for dx, dy, direction in directions:
-        x, y = i+dx, j+dy
-        if (x>=0) and (x<m) and (y>=0) and (y<n) and (maze[x][y] in ['.', 'B']) and ((x, y) not in visited):
-            queue.append((x, y, path + direction))
-
+        # visited neighbors
+        for dx, dy, direction in directions:
+            x, y = i+dx, j+dy
+            if (x>=0) and (x<m) and (y>=0) and (y<n) and (maze[x][y] in ['.', 'B']):
+                queue.append((x, y, path + direction))
 
 
 # ---
-while queue:
+while queue and not has_path[0]:
     i, j, path = queue.pop(0)
-    #  print(i, j, path)
     bfs(i, j, path)
 
 # ---
-if not has_path:
+if not has_path[0]:
     print('NO')
 
 
