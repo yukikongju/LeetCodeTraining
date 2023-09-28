@@ -46,7 +46,7 @@
     * Longest Mountain in Array
 - [ ] Set + Retry from beginning when adding to set
     * Find All Possible Recipes from Given Supplies
-- [-] Checking previous
+- [-] String Manipulation - Checking previous & number not starting with zeroes
     * Additive Number
 
 **Linked List**
@@ -181,6 +181,8 @@
     * Find the Original Array of Prefix XOR
 - [ ] Bitwise - In-place
     * Game of Life
+- [X] Subsets with Bitmask
+    * Subsets, 
 
 **Maths and Geometry**
 
@@ -196,4 +198,5 @@
 - [CMU 15-210: Data Structures Notes](http://www.cs.cmu.edu/afs/cs/academic/class/15210-s15/www/lectures/)
 - [NeetCode LeetCode Solutions](https://github.com/neetcode-gh/leetcode/tree/main/python)
 - [LeetCode - Google Questions](https://leetcode.com/discuss/interview-question/971009/List-of-2020-interview-question-for-Google)
+- [walkccc - LeetCode](https://github.com/walkccc/LeetCode)
 
