@@ -3,7 +3,7 @@
 [Blink 75 by Sean Prashad](https://seanprashad.com/leetcode-patterns/)
 [NeetCode 150](https://neetcode.io/practice)
 
-## Tips
+## General Tips
 
 **Questions to answer**
 
@@ -17,6 +17,12 @@
 2. Check problem resolution for that type of problem
 3. Solve that problem by looking at the code template once
 4. Solve a bunch of problems following that patterns without looking at answers
+
+## Python Tips
+
+**How to find duplicates in an array**
+
+We use `tupple()` and `set()`
 
 
 ## Types of Problems
