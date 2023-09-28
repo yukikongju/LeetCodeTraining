@@ -18,12 +18,10 @@
 - [ ] [Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/description/)
 - [ ] [Burst Ballons](https://leetcode.com/problems/burst-balloons/description/)
 - [ ] [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)
-- [X] [Additive Number](https://leetcode.com/problems/additive-number/)
+- [ ] [Find array given subset sums](https://leetcode.com/problems/find-array-given-subset-sums/)
 
 **Backtrack and Memoization**
 
-- [X] [Minimize Differnece Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/description/)
-- [X] [Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)
 - [ ] [Maximum Strictly INcreasing Cells in a Matrix](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/description/)
 
 
@@ -59,3 +57,6 @@
 # Completed
 
 
+- [X] [Minimize Differnece Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/description/)
+- [X] [Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)
+- [X] [Additive Number](https://leetcode.com/problems/additive-number/)
