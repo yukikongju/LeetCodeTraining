@@ -183,6 +183,9 @@ We use `tupple()` and `set()`
 
 **Bit Manipulation**
 
+- [ ] Right Shifting
+    * Reverse Bits, 
+    * Power of Two, 
 - [ ] XOR: `a ^ b = c <=> a ^ c = b`
     * Find the Original Array of Prefix XOR
 - [ ] Bitwise - In-place
