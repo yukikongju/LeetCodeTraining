@@ -15,5 +15,7 @@
 - [-] Labyrinth: not submitted yet bc print statement erroneous
 	* BFS
 
+## Ressources
 
+- [PyRival](https://github.com/cheran-senthil/PyRival)
 

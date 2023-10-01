@@ -13,6 +13,6 @@
 - [ ] H -> Magnesium supplement - EASY (?) - n is exclusive // input 2 why 3 isn't correct ?
 - [ ] I -> Missing Number - Bit Manipulation - HARD ?
 - [ ] J -> 
-- [ ] K -> 
+- [-] K -> Minimum Spanning Tree - Medium
 - [X] L -> Water Journal - 
 

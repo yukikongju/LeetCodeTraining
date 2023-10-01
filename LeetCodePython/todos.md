@@ -36,6 +36,10 @@
 **Bitwise**
 
 - [Game Of Life](https://leetcode.com/problems/game-of-life/)
+- [Power of 3](https://leetcode.com/problems/power-of-three/)
+- [Power of 4](https://leetcode.com/problems/power-of-four/)
+- [Divide Two INtegers](https://leetcode.com/problems/divide-two-integers/description/)
+- [Minimum Bit Flips to Convert Numbers](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/)
 
 
 **Maths**

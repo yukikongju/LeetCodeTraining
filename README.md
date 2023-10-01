@@ -45,4 +45,5 @@ and use Youtube whenever I get stuck
 - [ ] [System Design Course by Karan Pratap](https://github.com/karanpratapsingh/system-design)
 - [ ] [LeetCode Company Frequency](https://github.com/xizhengszhang/Leetcode_company_frequency)
 - [ ] [Online Judge](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=0)
+- [ ] [Project Euler](https://projecteuler.net/archives)
 
