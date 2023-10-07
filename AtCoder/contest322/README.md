@@ -4,10 +4,10 @@
 [quick sols](https://www.youtube.com/watch?v=ed9sY7kRleg)
 
 
-- [-] A: First ABC 2
-- [-] B: Prefix and Suffix
-- [ ] C
-- [ ] D
+- [X] A: First ABC 2
+- [X] B: Prefix and Suffix
+- [X] C: Festival
+- [ ] D:
 - [ ] E
 - [ ] F
 - [ ] G
