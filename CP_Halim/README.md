@@ -31,6 +31,9 @@
     - [ ] Greedy
     - [ ] Dynamic Programming
 - [ ] Chapter 4: Graph
+    - [ ] DFS
+    - [ ] BFS
+    - [ ] 
 - [ ] Chapter 5: Mathematics
 - [ ] Chapter 6: String Processing
 - [ ] Chapter 7: Computational Geometry

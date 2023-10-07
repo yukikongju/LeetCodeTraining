@@ -16,3 +16,6 @@
 - [-] K -> Minimum Spanning Tree - Medium
 - [X] L -> Water Journal - 
 
+# Ressources
+
+- [Python CP Team Notes - ndb796](https://github.com/ndb796/Python-Competitive-Programming-Team-Notes/tree/master)

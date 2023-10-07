@@ -209,4 +209,5 @@ We use `tupple()` and `set()`
 - [LeetCode - Google Questions](https://leetcode.com/discuss/interview-question/971009/List-of-2020-interview-question-for-Google)
 - [walkccc - LeetCode](https://github.com/walkccc/LeetCode)
 - [Strivers A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
+- [Competitive Programming C++ by omonimus1](https://github.com/omonimus1/competitive-programming)
 

@@ -48,6 +48,10 @@
 
 - [ ] [Problem 11](https://github.com/gaurangsaini/sipser-computation-3rd-solutions/blob/master/Chapter%201/11.pdf)
 	+ [ ] 
+
+
+
+
 - [ ] [Problem 12](https://github.com/gaurangsaini/sipser-computation-3rd-solutions/blob/master/Chapter%201/12.pdf)
 	+ [ ] 
 - [ ] [Problem 13](https://github.com/gaurangsaini/sipser-computation-3rd-solutions/blob/master/Chapter%201/13.pdf)
