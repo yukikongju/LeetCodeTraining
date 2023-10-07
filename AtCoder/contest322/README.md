@@ -5,7 +5,7 @@
 
 
 - [-] A: First ABC 2
-- [ ] B: Prefix and Suffix
+- [-] B: Prefix and Suffix
 - [ ] C
 - [ ] D
 - [ ] E
