@@ -4,10 +4,10 @@
 [quick sols](https://www.youtube.com/watch?v=ed9sY7kRleg)
 
 
-- [X] A: First ABC 2
-- [X] B: Prefix and Suffix
-- [X] C: Festival
-- [ ] D:
-- [ ] E
-- [ ] F
-- [ ] G
+- [X] A: First ABC 2 -> substring
+- [X] B: Prefix and Suffix -> substring
+- [X] C: Festival -> DP
+- [X] D: Polyominoes -> Brute Force
+- [ ] E: Product Development ->
+- [ ] F: Vacation Query
+- [ ] G: 
