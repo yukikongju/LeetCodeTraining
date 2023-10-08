@@ -7,7 +7,9 @@
 - [X] A: First ABC 2 -> substring
 - [X] B: Prefix and Suffix -> substring
 - [X] C: Festival -> DP
-- [X] D: Polyominoes -> Brute Force
-- [ ] E: Product Development ->
+- [X] D: Polyominoes -> Brute Force [ NOICE PROB ]
+    * rotating squares
+- [X] E: Product Development -> Memoization + DP with lru_cache
+    * it's better to cap values
 - [ ] F: Vacation Query
 - [ ] G: 
