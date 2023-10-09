@@ -5,7 +5,7 @@
 - [X] A: Water Station
 - [X] B: ABCDEFG
 - [X] C: Snuke the Cookie Picker
-- [-] D: Sleep Log -> Binary Search + Prefix Sum
+- [X] D: Sleep Log -> Binary Search + Prefix Sum [ Noice prob ]
     * Not intervals
 - [X] E: Art Gallery on Graph -> multisources BFS
 - [ ] F: Dungeon Explore
