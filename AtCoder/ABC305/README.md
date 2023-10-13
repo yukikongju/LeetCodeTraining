@@ -7,9 +7,10 @@
 - [X] C: Snuke the Cookie Picker
 - [X] D: Sleep Log -> Binary Search + Prefix Sum [ Noice prob ]
     * Not intervals
+    * `x&1==0` check if x is even
 - [X] E: Art Gallery on Graph -> multisources BFS
-- [ ] F: Dungeon Explore
-- [ ] G: Banned Substring
-- [ ] H:
+- [ ] F: Dungeon Explore -> interactive problem
+- [ ] G: Banned Substring ->
+- [ ] Ex - Shojin ->
 
 
