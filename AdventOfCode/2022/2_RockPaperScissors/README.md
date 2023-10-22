@@ -4,4 +4,4 @@
 
 
 - [X] Part 1 - Compute Total Points following stategy
-- [ ] Part 2 -
+- [X] Part 2 - Strategy 2: second column is the outcome
