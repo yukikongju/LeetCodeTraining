@@ -61,6 +61,19 @@ int main() {
 
     cout << "[ PARTIE 1 ] Total: " << counts << '\n';
 
+    // 3. [ PART 2 - Number of pairs that overlaps all]
+    int counts2 = 0;
+    for (auto &p: pairings) {
+	Elf &elf1 = p.first;
+	Elf &elf2 = p.second;
+
+	if ((elf2.start >= elf1.start && elf2.start <= elf1.end) || 
+		(elf1.start >= elf2.start && elf1.start <= elf2.end)) counts2++;
+
+    }
+
+    cout << "[ PARTIE 2 ] Total: " << counts2 << '\n';
+
 
     return 0;
 }
