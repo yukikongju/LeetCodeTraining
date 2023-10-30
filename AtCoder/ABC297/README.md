@@ -1,10 +1,10 @@
 [ABC297](https://atcoder.jp/contests/abc297/tasks)
 
 - [X] A: Double Click
-- [ ] B: ches960
-- [ ] C: PC on the Table
-- [ ] D: Count Substraction
-- [ ] E: Kth Takoyaki Set
+- [X] B: ches960
+- [X] C: PC on the Table
+- [-] D: Count Substraction (avoid TLE by computing division)
+- [X] E: Kth Takoyaki Set (Review with heap: idea behind removing smallest)
 - [ ] F: Minimum Bounding Box 2
-- [ ] G: Constrained Nim 2
+- [-] G: Constrained Nim 2 [ Nim Sum ]
 - [ ] Ex: Diff Adjacent
