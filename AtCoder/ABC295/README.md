@@ -4,7 +4,7 @@
 - B: 
 - [X] C: Socks - dict counts to count pairs
 - [o] D: Three Days Ago => [ reduce to happy string if digits appear twice ]
-- [i] E: Kth Number => [ Expected Value ] [ TO FINISH ]
+- [-] E: Kth Number => [ Expected Value ] [ TO FINISH ]
 - G: 
 - Ex: 
 
