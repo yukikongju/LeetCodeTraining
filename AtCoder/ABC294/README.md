@@ -3,7 +3,7 @@
 - A
 - B
 - [X] C: Merge Sequences
-- D
+- [X] D: Bank 
 - E
 - F
 - G
