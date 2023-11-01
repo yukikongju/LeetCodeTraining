@@ -38,7 +38,7 @@ for m in range(1, M+1):
     required = max(N-K+1-s, 0)
     for t in range(required, num_zeroes+1):
         alpha = pow((M-m+1)*M_inv, t, mod) # probability that at least t elements >= x
-        beta = pow((m-1)*M_inv, N-non_zeroes-t, mod) # probability that at most N-non_zeroes-t elements < x
+        beta = pow((m-1)*M_inv, num_zeroes-t, mod) # probability that at most num_zeroes-t elements < x
         gamma = alpha * beta % mod
         total += binomial(num_zeroes, t, mod) * gamma
     total %= mod
