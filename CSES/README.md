@@ -18,4 +18,5 @@
 ## Ressources
 
 - [PyRival](https://github.com/cheran-senthil/PyRival)
+- [CSES Problemset Editorials - Sahal](https://codeforces.com/blog/entry/83343)
 
