@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 #include <fstream>
 #include <string>
+#include <system_error>
 #include <utility>
 
 using namespace std;
@@ -33,8 +34,11 @@ int main() {
   int m = grid[0].size();
 
   // [ PART 1 ]
-  int numSteps = 100;
-  int numFlashes = 0;
+  int numSteps = 500;
+  int currentFlashes = 0;
+  vector<int> numFlashes;
+  numFlashes.push_back(0);
+  vector<int> synchronizedFlashes;
   vector<pair<int, int>> neighbors = {{0, 1},   {0, -1}, {1, 0},  {-1, 0},
                                       {-1, -1}, {-1, 1}, {1, -1}, {1, 1}};
 
@@ -48,7 +52,7 @@ int main() {
         if (grid[i][j] == 9) {
           grid[i][j] = 0;
           s.push(make_pair(i, j));
-          numFlashes += 1;
+          currentFlashes += 1;
           hasFlashed[i][j] = true;
         } else {
           grid[i][j] += 1;
@@ -74,24 +78,41 @@ int main() {
           if ((grid[x][y] == 9) && (!hasFlashed[x][y])) {
             grid[x][y] = 0;
             s.push(make_pair(x, y));
-            numFlashes += 1;
+            currentFlashes += 1;
             hasFlashed[x][y] = true;
-            // } else {
-            //   grid[x][y] += 1;
-            // }
           } else if (grid[x][y] != 0) {
             grid[x][y] += 1;
           }
         }
       }
     }
+    numFlashes.push_back(currentFlashes);
     // print_grid(grid);
     // cout << "Num Flashes: " << numFlashes << '\n';
+
+    // check if synchronized flash
+    bool isSynchronized = true;
+    for (int i = 0; i < m; i++) {
+      for (int j = 0; j < n; j++) {
+        if (grid[i][j] != 0) {
+          isSynchronized = false;
+          break;
+        }
+      }
+    }
+    if (isSynchronized) {
+      synchronizedFlashes.push_back(k + 1);
+    }
   }
 
-  cout << "[PART 1] Num Flashes: " << numFlashes << '\n';
+  cout << "[PART 1] Num Flashes: " << numFlashes[100] << '\n';
 
   // [ PART 2 ]
+
+  for (auto &k : synchronizedFlashes)
+    cout << k << ' ';
+  cout << '\n';
+  cout << "[PART 2]" << '\n';
 
   return 0;
 }
