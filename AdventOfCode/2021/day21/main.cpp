@@ -66,16 +66,16 @@ int main() {
       if (player1.hasWon())
         hasWinner = true;
       isPlayer1Turn = false;
-      cout << numTurns << " Player 1: ";
-      player1.print();
+      // cout << numTurns << " Player 1: ";
+      // player1.print();
     } else {
       player2.updatePosition(numStepsForward);
       player2.addScore(player2.position);
       if (player2.hasWon())
         hasWinner = true;
       isPlayer1Turn = true;
-      cout << numTurns << " Player 2: ";
-      player2.print();
+      // cout << numTurns << " Player 2: ";
+      // player2.print();
     }
   }
 
@@ -84,7 +84,9 @@ int main() {
                                : player2.score * (numTurns * 3);
   cout << "[PART 1] Score: " << score1 << '\n';
 
-  // [ PART 2 ]
+  // [ PART 2 - How many universes ]
+
+  cout << "[PART 2] Score: " << '\n';
 
   return 0;
 }
