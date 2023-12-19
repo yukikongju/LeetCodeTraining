@@ -2,9 +2,11 @@
 CXX = g++
 
 # define source and output files
-cpp_file = CountingRooms.cpp
+cpp_file = BuildingTeams.cpp
+# cpp_file = ShortestRoutesII.cpp
 output_file = a.out
-input_file = inputs/counting_rooms.in
+# input_file = inputs/ShortestRoutesII.in
+input_file = inputs/BuildingTeams.in
 
 # define compile flags
 CXXFLAGS = -std=c++11 -Wall

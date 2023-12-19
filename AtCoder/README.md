@@ -3,7 +3,6 @@
 [site](https://kenkoooo.com/atcoder#/table//)
 
 Next Contests:
-- [ABC294](https://atcoder.jp/contests/abc294/tasks)
 - [ABC293](https://atcoder.jp/contests/abc293/tasks)
 - [ABC292](https://atcoder.jp/contests/abc292/tasks)
 - [ABC291](https://atcoder.jp/contests/abc291/tasks)

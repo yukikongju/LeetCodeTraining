@@ -1,6 +1,8 @@
 GXX= g++
-CPP_FILE = NimGameI.cpp
-IN_FILE = inputs/NimGame1.in
+# CPP_FILE = NimGameII.cpp
+# IN_FILE = inputs/NimGameII.in
+CPP_FILE = JosephusQueries.cpp
+IN_FILE = inputs/JosephusQueries.in
 OUT_FILE = a.out
 
 compile:

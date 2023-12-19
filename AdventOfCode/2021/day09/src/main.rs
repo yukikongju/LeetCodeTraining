@@ -27,6 +27,7 @@ fn main() {
 
     let neighbors = [(0, -1), (0, 1), (-1, 0), (1, 0)];
     let mut low_points: Vec<i32> = Vec::new();
+    let mut positions: Vec<(usize, usize)> = Vec::new();
     for (i, line) in grid.iter().enumerate() {
         for (j, cell) in line.iter().enumerate() {
             if neighbors.iter().all(|&(dx, dy)| {
@@ -36,11 +37,15 @@ fn main() {
                     .unwrap_or(true)
             }) {
                 low_points.push(*cell);
+                positions.push((i, j));
             }
         }
     }
     // println!("{:?}", low_points);
     let sum: i32 = low_points.iter().map(|p| p+1).sum();
     println!("[Part 1] Low Points Sum: {}", sum);
+
+    // [ PART 2 - Find 3 largest basins ]
+
 
 }

@@ -29,6 +29,10 @@ void printDaysToYears(int numDays){
     printf("Num Days: %d; Years: %d; Weeks: %d; Days: %d \n", numDays, years, weeks, days);
 }
 
+void findPrimes(int n){ // TODO
+    /* 65. Write a C program that prints out the prime numbers between 1 and 200. The output should be such that each row contains a maximum of 20 prime numbers. Go to the editor */
+    for (int num = 2; num <= n; ++num); 
+}
 
 int main(){
     /* printRectangle(); */

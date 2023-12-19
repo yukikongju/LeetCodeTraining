@@ -88,19 +88,9 @@ void updateHeadTailPosition(Position &head, Position &tail, Move move, set<Posit
 int getNumberVisitedPositions(vector<Move> &moves) {
 
     // 1. get all tail positions
-    // set<pair<int,int>> positions;
     set<Position> positions;
-    // pair<int, int> head(0,0), tail(0,0);
     Position head(0,0), tail(0,0);
-    for (auto &move: moves) {
-	// get dx, dy
-	// pair<int, int> deltas = move.getDxDy();
-	// cout << move.direction << " " << move.step << " dx: " << deltas.first << " dy: " << deltas.second << '\n';
-
-	// update head and tail new positions
-	updateHeadTailPosition(head, tail, move, positions);
-
-    }
+    for (auto &move: moves) updateHeadTailPosition(head, tail, move, positions);
 
     int numMoves = positions.size();
     return numMoves;
@@ -110,7 +100,7 @@ int getNumberVisitedPositions(vector<Move> &moves) {
 
 int main() {
     // 1. read inputs
-    string FILENAME = "inputs/2.in";
+    string FILENAME = "inputs/1.in";
     ifstream file(FILENAME);
     char direction;
     int step;
@@ -125,7 +115,6 @@ int main() {
     // 2. [ PART 1 - Find number of positions T has visited]
     int numTailPosition = getNumberVisitedPositions(moves);
     cout << "[ PART 1 ] Number of Visited Positions: " << numTailPosition << '\n';
-
 
     // 3. [ PART 2 - ]
 

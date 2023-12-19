@@ -14,26 +14,26 @@
 import os
 
 
-def brute_force(pebbles):
-    """
-    We calculate every subproblems
-    """
-    # calculate the number of pebbles
-    min_counts = [0]*len(pebbles)
-    hashmap = {}
-    for i, board in enumerate(pebbles):
-        min_count = helper(list(board), hashmap)
-        #  min_counts[i] = str(min_count)
-        min_counts[i] = min_count
+#  def solve(pebbles):
+#      """
+#      We calculate every subproblems
+#      """
+#      # calculate the number of pebbles
+#      min_counts = [0]*len(pebbles)
+#      hashmap = {}
+#      for i, board in enumerate(pebbles):
+#          min_count = helper(list(board), hashmap)
+#          #  min_counts[i] = str(min_count)
+#          min_counts[i] = min_count
 
-    return min_counts
+#      return min_counts
     
 
-def helper(board, hashmap):
+def helper(board, hashmap={}):
     """ 
     Calculate minimum of pebbles in a given row
     """
-    print(''.join(board))
+    #  print(''.join(board))
     # check if board has been computed
     board_str = ''.join(board)
     if board_str in hashmap: 
@@ -83,10 +83,25 @@ def read_input(file_name):
 
         return n, pebbles
 
+def solve(pebbles):
+    """ 
+
+    """
+    solutions = []
+    for pebble in pebbles:
+        solution = helper(list(pebble))
+        solutions.append(solution)
+
+    return solutions
+
 
 def main():
     file_name = "Calculum/Semaine2/pebblesolitaire/pebblesolitaire.in"
     n, pebbles = read_input(file_name)
+    print(pebbles)
+    solutions = solve(pebbles)
+    #  print(solutions)
+    #  print(' '.join([str(count)] for count in solutions))
 
     # Solution 1:
     #  min_counts = brute_force(pebbles)
@@ -95,7 +110,7 @@ def main():
 
     # test edge case 
     board = 'oooooooooo-o'
-    print(helper(list(board), {}))
+    #  print(helper(list(board), {}))
 
 
 if __name__ == "__main__":

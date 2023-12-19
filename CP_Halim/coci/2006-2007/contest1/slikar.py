@@ -19,6 +19,11 @@ def read_output_file(file_name):
         ans = f.readline().strip()
     return ans
 
+def print_grid(grid):
+    pass
+
+    
+
 def solve(r, c, forest):
 
     grid = copy.deepcopy(forest)
@@ -60,7 +65,7 @@ def solve(r, c, forest):
             # bfs
             directions = [(i-1, j), (i+1, j), (i, j-1), (i, j+1)]
             for row, col in directions:
-                if (row >= 0) and (col >=0) and (row < r) and (col < c) and (distances[row][col] in ['.', 'D']):
+                if (row >= 0) and (col >=0) and (row < r) and (col < c) and (distances[row][col] in ['.', 'D']): # FIXME
                     distances[row][col] = time
                     positions.append((row, col))
 

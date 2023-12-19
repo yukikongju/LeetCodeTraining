@@ -6,7 +6,7 @@
 - [X] Herman: taxicab and euclidean distance
 - [X] Okviri: pretty print with peter pan and wendy
 - [.] Slikar: Graph (2 test cases not working)
-- [ ] Bond:
-- [ ] Debug:
+- [ ] Bond: ~~Backtracking~~ // DP
+- [ ] Debug: DP (?)
 
 

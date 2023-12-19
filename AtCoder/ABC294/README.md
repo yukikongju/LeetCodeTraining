@@ -5,6 +5,6 @@
 - [X] C: Merge Sequences
 - [X] D: Bank 
 - E
-- F
+- [ ] F: Sugar Water 2 => binary search
 - G
 
