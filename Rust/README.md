@@ -1,5 +1,15 @@
 # Learn Rust
 
+- [ ] Ownership, Borrowing and Lifetimes
+- [ ] Traits and Generics
+- [ ] Closure and Iterator
+- [ ] Smart Pointers: Box, Rc, Arc
+- [ ] Associated Types and Type Aliases
+- [ ] Macros
+- [ ] Error Handling
+- [ ] Custom Allocator/Derive
+- [ ] Pattern Matching
+- [ ] Concurrency and Multithreading
 
 
 
