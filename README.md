@@ -49,3 +49,8 @@ and use Youtube whenever I get stuck
 - [ ] [Project Euler](https://projecteuler.net/archives)
 - [ ] [ACM Finals Solutions](https://github.com/SnapDragon64/ACMFinalsSolutions/tree/master)
 
+**Top Questions**
+
+- [ ] [TLE-Eliminator Sheet](https://www.tle-eliminators.com/cp-sheet)
+- [ ] NeetCode
+
