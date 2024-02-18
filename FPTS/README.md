@@ -8,7 +8,8 @@
 - [X] Function Currying: `h1.ts`
 	- use unary function to define function with same operator (increment, 
 	  increment by 10)
-- [ ] Function Recursion:
+- [ ] Function Recursion: `h2.ts`
+	- no loop
 - [ ] Option, Maybe and null value:
 - [ ] Either
 - [ ] List, Linked List
@@ -21,6 +22,7 @@
 
 Definitions:
 * Unary Functions: function with one parameter
+* array restructuring: `const [head, ...rest]=xs`, where `xs: number[]`
 
 
 
@@ -30,6 +32,7 @@ Running TypeScript code locally
 
 ```
 npm install -g ts-node typescript '@types/node'
+make run
 ```
 
 ## Ressources
