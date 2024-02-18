@@ -13,7 +13,7 @@
 - [X] Option, Maybe and null value: `h3.ts`
 	- partial vs total function
 - [X] Either: `h4.ts`
-- [ ] List, Linked List: `h5.ts`
+- [X] List, Linked List: `h5.ts`
 - [ ] ADT, Pattern Matching: `h6.ts`
 - [ ] Magma, Semigroup, Monoid: `h7.ts`
 - [ ] Group: `h8.ts`
