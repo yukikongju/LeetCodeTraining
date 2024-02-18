@@ -10,14 +10,14 @@
 	  increment by 10)
 - [X] Function Recursion: `h2.ts`
 	- no loop; define base case
-- [ ] Option, Maybe and null value:
+- [X] Option, Maybe and null value: `h3.ts`
 	- partial vs total function
-- [ ] Either
-- [ ] List, Linked List
-- [ ] ADT, Pattern Matching
-- [ ] Magma, Semigroup, Monoid
-- [ ] Group
-- [ ] Functor
+- [ ] Either: `h4.ts`
+- [ ] List, Linked List: `h5.ts`
+- [ ] ADT, Pattern Matching: `h6.ts`
+- [ ] Magma, Semigroup, Monoid: `h7.ts`
+- [ ] Group: `h8.ts`
+- [ ] Functor: `h9.ts`
 - [ ] Higher-order function
 - [ ] type class
 
