@@ -12,7 +12,7 @@
 	- no loop; define base case
 - [X] Option, Maybe and null value: `h3.ts`
 	- partial vs total function
-- [ ] Either: `h4.ts`
+- [X] Either: `h4.ts`
 - [ ] List, Linked List: `h5.ts`
 - [ ] ADT, Pattern Matching: `h6.ts`
 - [ ] Magma, Semigroup, Monoid: `h7.ts`
