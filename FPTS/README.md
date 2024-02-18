@@ -12,9 +12,15 @@
 	- no loop; define base case
 - [X] Option, Maybe and null value: `h3.ts`
 	- partial vs total function
+	- Option: None or Some
 - [X] Either: `h4.ts`
+	- Either: Left | Right
 - [X] List, Linked List: `h5.ts`
 - [ ] ADT, Pattern Matching: `h6.ts`
+	- ADT: algebraic data type is a composition data type using operation PRODUCT or SUM
+	- Product Type: cardinality is product of both types
+	- Sum Type and variant // CoProduct // Tagged // Disjoint Union: cardinality is sum of both type
+	- Pattern matching should cover all the values
 - [ ] Magma, Semigroup, Monoid: `h7.ts`
 - [ ] Group: `h8.ts`
 - [ ] Functor: `h9.ts`
@@ -25,6 +31,17 @@ Definitions:
 * Unary Functions: function with one parameter
 * array restructuring: `const [head, ...rest]=xs`, where `xs: number[]`
 
+**Exercices**
+
+- [ ] 0 Map, Filter, Reduce, Accumulate =>
+- [ ] 1 Function Composition + Currying => write a function that transform a list of Celsius into Fahrenheit and print it
+- [ ] 2 Partial Function => write a function that return Either when applied to square root
+- [ ] 3 Recursion => Compute the first 8 fibonacci numbers
+- [ ] 4 Linked List => Compute the Sum of head until current node and print it
+- [ ] 5 
+- [ ] 6 
+- [ ] 7 
+- [ ] 8 
 
 
 ## code

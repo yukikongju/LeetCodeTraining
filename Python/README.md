@@ -3,6 +3,7 @@
 - [X] list comprehension
 - [ ] duck typing
 - [ ] wrappers/decorators
+- [ ] datatypes
 - [.] typing:
     - [X] List, Tuple, Dict
     - [ ] Optional / Union
