@@ -1,4 +1,4 @@
-base_file=e2
+base_file=h6
 ts_file=${base_file}.ts
 js_file=${base_file}.js
 
