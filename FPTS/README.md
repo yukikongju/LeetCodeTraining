@@ -16,16 +16,17 @@
 - [X] Either: `h4.ts`
 	- Either: Left | Right
 - [X] List, Linked List: `h5.ts`
-- [.] ADT, Pattern Matching: `h6.ts`
+- [X] ADT, Pattern Matching: `h6.ts`
 	- ADT: algebraic data type is a composition data type using operation PRODUCT or SUM
 	- Product Type: cardinality is product of both types
 	- Sum Type and variant // CoProduct // Tagged // Disjoint Union: cardinality is sum of both type
 	- Pattern matching should cover all the values
-- [ ] Magma, Semigroup, Monoid: `h7.ts`
+- [X] Magma, Semigroup, Monoid: `h7.ts`
+	- `point free form`
 - [ ] Group: `h8.ts`
 - [ ] Functor: `h9.ts`
 - [ ] Higher-order function
-- [ ] type class
+- [ ] type class in fp-ts: `h10.ts`
 
 Definitions:
 * Unary Functions: function with one parameter
