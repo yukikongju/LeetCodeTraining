@@ -1,6 +1,6 @@
 # Docker Exercises
 
-- [ ] 1. 
+- [X] 1. 
 - [ ] 2. 
 - [ ] 3. 
 - [ ] 4. 
@@ -25,6 +25,10 @@
 - [ ] 23. 
 - [ ] 24. 
 - [ ] 25. 
+
+# Concepts
+
+**What's the difference between Dockerfile, docker-compose and docker**
 
 
 # Resources
