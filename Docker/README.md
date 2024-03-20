@@ -1,9 +1,9 @@
 # Docker Exercises
 
-- [X] 1. 
-- [ ] 2. 
-- [ ] 3. 
-- [ ] 4. 
+- [X] 1. Services in docker-compose.yaml file
+- [X] 2. Dockerfile environment variable
+- [ ] 3. [ SKIPPED ]
+- [ ] 4. [ SKIPPED ]
 - [ ] 5. 
 - [ ] 6. 
 - [ ] 7. 
