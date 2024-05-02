@@ -90,7 +90,7 @@ Game parse_game(const string_view line) {
 
 int main() {
   // 1. read inputs
-  string FILENAME = "inputs/1.txt";
+  string FILENAME = "inputs/2.txt";
   ifstream file(FILENAME);
   string line;
 
@@ -101,15 +101,31 @@ int main() {
   }
 
   // printing games
+  // for (const auto &game : games) {
+  //   cout << game.id << "\n";
+  //   for (const auto &round : game.rounds) {
+  //     cout << round[0] << ' ' << round[1] << ' ' << round[2] << '\n';
+  //   }
+  //   cout << "---- \n";
+  // }
+
+  // 2. [ Compute A ]
+  const int MAX_RED = 12, MAX_GREEN = 13, MAX_BLUE = 14;
+  int sumIds = 0;
   for (const auto &game : games) {
-    cout << game.id << "\n";
+    bool isValid = true;
     for (const auto &round : game.rounds) {
-      cout << round[0] << ' ' << round[1] << ' ' << round[2] << '\n';
+      if (round[0] > MAX_RED | round[1] > MAX_GREEN | round[2] > MAX_BLUE) {
+        isValid = false;
+      }
     }
-    cout << "---- \n";
+
+    if (isValid) {
+      sumIds += game.id;
+    }
   }
 
-  // 2.
+  cout << "Sum of Valid Game IDs: " << sumIds << "\n";
 
   return 0;
 }
