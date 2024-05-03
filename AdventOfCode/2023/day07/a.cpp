@@ -10,13 +10,17 @@
 
 using namespace std;
 
+unordered_map<char, int> cardValuesDict = {
+    {'2', 2}, {'3', 3},  {'4', 4},  {'5', 5},  {'6', 6},  {'7', 7}, {'8', 8},
+    {'9', 9}, {'T', 10}, {'J', 11}, {'Q', 12}, {'K', 13}, {'A', 14}};
+
 const vector<char> cardsOrderingDesc = {'A', 'K', 'Q', 'J', 'T', '9', '8',
                                         '7', '6', '5', '4', '3', '2'};
 
 struct Hand {
   string cards;
   int bid;
-  unordered_map<int, vector<char>> cardsValuesDict;
+  unordered_map<int, vector<char>> valueDict;
 
   void setCardValues() {
     // count each type of cards
@@ -29,7 +33,7 @@ struct Hand {
     for (char c : cardsOrderingDesc) {
 
       if (counts[c] > 0) {
-        cardsValuesDict[counts[c]].push_back(c);
+        valueDict[counts[c]].push_back(c);
       }
     }
   }
@@ -37,7 +41,7 @@ struct Hand {
   void print() {
     cout << "Cards: " << cards << ' ' << "; Bid: " << bid;
     cout << "; Values => ";
-    for (const auto &pair : cardsValuesDict) {
+    for (const auto &pair : valueDict) {
       cout << pair.first << ": ";
       for (char c : pair.second)
         cout << c;
@@ -47,17 +51,15 @@ struct Hand {
   }
 
   string nOfAKind(const Hand &other, int i) const {
-    auto it1 = cardsValuesDict.find(i);
-    auto it2 = other.cardsValuesDict.find(i);
+    auto it1 = valueDict.find(i);
+    auto it2 = other.valueDict.find(i);
 
     // If the current hand has a higher card count, it is greater
-    if (it1 != cardsValuesDict.end() && it2 == other.cardsValuesDict.end()) {
+    if (it1 != valueDict.end() && it2 == other.valueDict.end()) {
       return "greater";
-    } else if (it1 == cardsValuesDict.end() &&
-               it2 != other.cardsValuesDict.end()) {
+    } else if (it1 == valueDict.end() && it2 != other.valueDict.end()) {
       return "lower";
-    } else if (it1 != cardsValuesDict.end() &&
-               it2 != other.cardsValuesDict.end()) {
+    } else if (it1 != valueDict.end() && it2 != other.valueDict.end()) {
       // Compare the card values in descending order
       for (char c : cardsOrderingDesc) {
         auto f1 = find(it1->second.begin(), it1->second.end(), c);
@@ -68,6 +70,78 @@ struct Hand {
           return "lower";
         }
       }
+    }
+
+    return "continue";
+  }
+
+  string getFullHouse(const Hand &other) const {
+    // verify that both hands have 2 and 3
+    auto hand1has2 = valueDict.find(2);
+    auto hand2has2 = other.valueDict.find(2);
+    auto hand1has3 = valueDict.find(3);
+    auto hand2has3 = other.valueDict.find(3);
+
+    if (hand1has2 == valueDict.end() || hand2has2 == other.valueDict.end() ||
+        hand1has3 == valueDict.end() || hand2has3 == other.valueDict.end()) {
+      return "continue";
+    }
+
+    // get greater 3, then 2; Note: if full house, then only one two + one three
+    if (cardValuesDict[hand1has3->second[0]] >
+        cardValuesDict[hand2has3->second[0]]) {
+      return "greater";
+    } else if (cardValuesDict[hand1has3->second[0]] <
+               cardValuesDict[hand2has3->second[0]]) {
+      return "lower";
+    }
+
+    if (cardValuesDict[hand1has2->second[0]] >
+        cardValuesDict[hand2has2->second[0]]) {
+      return "greater";
+    } else if (cardValuesDict[hand1has2->second[0]] <
+               cardValuesDict[hand2has2->second[0]]) {
+      return "lower";
+    }
+
+    return "continue";
+  }
+
+  string getTwoPairs(const Hand &other) const { // TODO
+    // verify that both hands have two pairs
+    auto hand1hasPairs = valueDict.find(2);
+    auto hand2hasPairs = other.valueDict.find(2);
+    if (hand1hasPairs == valueDict.end() or
+        hand2hasPairs == other.valueDict.end()) {
+      return "continue";
+    }
+
+    // checking if it has two pairs
+    if (hand1hasPairs->second.size() == 1 or
+        hand2hasPairs->second.size() == 1) {
+      return "continue";
+    }
+
+    // get greater pair 1 => pair 2 => highest card
+    for (int i = 0; i < 2; i++) {
+      if (cardValuesDict[hand1hasPairs->second[i]] >
+          cardValuesDict[hand2hasPairs->second[i]]) {
+        return "greater";
+      } else if (cardValuesDict[hand1hasPairs->second[i]] <
+                 cardValuesDict[hand2hasPairs->second[i]]) {
+        return "lower";
+      }
+    }
+
+    // compare their lowest card
+    auto hand1posSingle = valueDict.find(1);
+    auto hand2posSingle = other.valueDict.find(1);
+    if (cardValuesDict[hand1posSingle->second[0]] >
+        cardValuesDict[hand2posSingle->second[0]]) {
+      return "greater";
+    } else if (cardValuesDict[hand1posSingle->second[0]] <
+               cardValuesDict[hand2posSingle->second[0]]) {
+      return "lower";
     }
 
     return "continue";
@@ -87,7 +161,13 @@ struct Hand {
       return false;
     }
 
-    // TODO: full house
+    // full house
+    string hasFullHouse = getFullHouse(other);
+    if (hasFullHouse == "lower") {
+      return true;
+    } else if (hasFullHouse == "greater") {
+      return false;
+    }
 
     string hasThreeOfAKind = nOfAKind(other, 3);
     if (hasThreeOfAKind == "lower") {
@@ -96,7 +176,14 @@ struct Hand {
       return false;
     }
 
-    // TODO: two pairs
+    // two pairs
+    string hasTwoPairs = getTwoPairs(other);
+    if (hasTwoPairs == "lower") {
+      return true;
+    } else if (hasTwoPairs == "greater") {
+      return false;
+    }
+
     string hasOnePair = nOfAKind(other, 2);
     if (hasOnePair == "lower") {
       return true;
@@ -118,7 +205,7 @@ struct Hand {
 
 int main() {
   // 1. read inputs
-  string FILENAME = "inputs/1.txt";
+  string FILENAME = "inputs/2.txt";
   ifstream file(FILENAME);
   string line;
 
@@ -142,8 +229,12 @@ int main() {
   // 2. Implement sorting algorithm to rank hands
   sort(hands.begin(), hands.end());
   cout << "\nAfter sorting \n";
-  for (auto &hand : hands) {
-    hand.print();
+  // for (auto &hand : hands) {
+  //   hand.print();
+  // }
+  for (size_t i = 0; i < hands.size(); i++) {
+    cout << "Rank: " << i + 1 << "; ";
+    hands[i].print();
   }
 
   // 3. Compute total winnings
