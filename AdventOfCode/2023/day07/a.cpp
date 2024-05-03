@@ -141,10 +141,19 @@ int main() {
 
   // 2. Implement sorting algorithm to rank hands
   sort(hands.begin(), hands.end());
-  cout << "After sorting \n";
+  cout << "\nAfter sorting \n";
   for (auto &hand : hands) {
     hand.print();
   }
+
+  // 3. Compute total winnings
+  int rank = 1;
+  int totalWinnings = 0;
+  for (auto hand : hands) {
+    totalWinnings += hand.bid * rank;
+    rank++;
+  }
+  cout << "Total Winnings: " << totalWinnings << "\n";
 
   return 0;
 }
