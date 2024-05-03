@@ -1,6 +1,8 @@
+#include <algorithm>
 #include <array>
 #include <fstream>
 #include <iostream>
+#include <iterator>
 #include <sstream>
 #include <string>
 #include <unordered_map>
@@ -8,14 +10,16 @@
 
 using namespace std;
 
-unordered_map<char, int> cardValuesDict = {
-    {'2', 2}, {'3', 3},  {'4', 4},  {'5', 5},  {'6', 6},  {'7', 7}, {'8', 8},
-    {'9', 9}, {'T', 10}, {'J', 11}, {'Q', 12}, {'K', 13}, {'A', 14}};
+// unordered_map<char, int> cardValuesDict = {
+//     {'2', 2}, {'3', 3},  {'4', 4},  {'5', 5},  {'6', 6},  {'7', 7}, {'8', 8},
+//     {'9', 9}, {'T', 10}, {'J', 11}, {'Q', 12}, {'K', 13}, {'A', 14}};
+const vector<char> cardsOrderingDesc = {'A', 'K', 'Q', 'J', 'T', '9', '8',
+                                        '7', '6', '5', '4', '3', '2'};
 
 struct Hand {
   string cards;
   int bid;
-  unordered_map<int, vector<char>> cardsValues;
+  unordered_map<int, vector<char>> cardsValuesDict;
 
   void setCardValues() {
     // count each type of cards
@@ -25,10 +29,10 @@ struct Hand {
     }
 
     // get ordered dict for each cards
-    for (const auto &pair : cardValuesDict) {
+    for (char c : cardsOrderingDesc) {
 
-      if (counts[pair.first] > 0) {
-        cardsValues[counts[pair.first]].push_back(pair.first);
+      if (counts[c] > 0) {
+        cardsValuesDict[counts[c]].push_back(c);
       }
     }
   }
@@ -36,7 +40,7 @@ struct Hand {
   void print() {
     cout << "Cards: " << cards << ' ' << "; Bid: " << bid;
     cout << "; Values => ";
-    for (const auto &pair : cardsValues) {
+    for (const auto &pair : cardsValuesDict) {
       cout << pair.first << ": ";
       for (char c : pair.second)
         cout << c;
@@ -47,11 +51,31 @@ struct Hand {
 };
 
 bool compareHandByCards(Hand &hand1, Hand &hand2) { // TODO
-  // compute value hand 1
-
-  // compute value hand 2
-
-  // compare them
+  for (int i = 5; i >= 1; i--) {
+    auto it1 = hand1.cardsValuesDict.find(i);
+    auto it2 = hand2.cardsValuesDict.find(i);
+    if ((it1 != hand1.cardsValuesDict.end()) &&
+        (it2 == hand2.cardsValuesDict.end())) {
+      return true;
+    } else if ((it1 != hand1.cardsValuesDict.end()) &&
+               (it2 == hand2.cardsValuesDict.end())) {
+      return false;
+    } else {
+      for (char c : cardsOrderingDesc) {
+        auto f1 = find(hand1.cardsValuesDict[i].begin(),
+                       hand1.cardsValuesDict[i].end(), c);
+        auto f2 = find(hand2.cardsValuesDict[i].begin(),
+                       hand2.cardsValuesDict[i].end(), c);
+        if ((f1 != hand1.cardsValuesDict[i].end()) &&
+            (f2 == hand2.cardsValuesDict[i].end())) {
+          return true;
+        } else if ((f1 == hand1.cardsValuesDict[i].end()) &&
+                   (f2 != hand2.cardsValuesDict[i].end())) {
+          return false;
+        }
+      }
+    }
+  }
 
   return true;
 }
