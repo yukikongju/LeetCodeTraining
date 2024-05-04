@@ -72,8 +72,30 @@ bool isValidCandidate(string &candidate, vector<int> &grouping) {
   return true;
 }
 
-vector<string> generateCandidates(string &arrangement) { // TODO
+void genererateCandidateHelper(const string &arrangement, size_t k,
+                               string candidate, vector<string> &candidates) {
+  // check candidate has been generated
+  if (k == arrangement.size()) {
+    candidates.push_back(candidate);
+    return;
+  }
+
+  // generate k+1 steps
+  if (arrangement[k] == '?') {
+    genererateCandidateHelper(arrangement, k + 1, candidate + '#', candidates);
+    genererateCandidateHelper(arrangement, k + 1, candidate + '.', candidates);
+
+  } else {
+    genererateCandidateHelper(arrangement, k + 1, candidate + arrangement[k],
+                              candidates);
+  }
+}
+
+vector<string> generateCandidates(string &arrangement) {
+  // generating candidates using backtracking strategy
   vector<string> candidates;
+  genererateCandidateHelper(arrangement, 0, "", candidates);
+
   return candidates;
 }
 
@@ -96,7 +118,7 @@ int getNumArrangement(Spring &spring) {
 
 int main() {
   // 1. Read inputs
-  string FILENAME = "inputs/1.txt";
+  string FILENAME = "inputs/2.txt";
   ifstream file(FILENAME);
   string line;
 
