@@ -92,7 +92,7 @@ void genererateCandidateHelper(const string &arrangement, size_t k,
   }
 }
 
-int getNumArrangement(Spring &spring) {
+int getNumArrangement(Spring &spring) { // TODO
   // original arrangement length <= 20
   // With unfolding, it would be <= 20*5+5 = 125 => at most 2^125 operations by
   // arrangement, a total of 4x10^31 seconds => we can't brute-force all
@@ -150,12 +150,12 @@ int main() {
 
   // 3. compute sum of arrangements
 
-  // long long sumArrangements = 0;
-  // for (auto &spring : springs) {
-  //   sumArrangements += getNumArrangement(spring);
-  // }
+  long long sumArrangements = 0;
+  for (auto &spring : springs) {
+    sumArrangements += getNumArrangement(spring);
+  }
 
-  // cout << "Sum Arrangements: " << sumArrangements << "\n";
+  cout << "Sum Arrangements: " << sumArrangements << "\n";
 
   return 0;
 }
