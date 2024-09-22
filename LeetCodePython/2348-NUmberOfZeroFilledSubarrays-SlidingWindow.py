@@ -1,18 +1,20 @@
-#  https://leetcode.com/problems/number-of-zero-filled-subarrays/
+#  https://leetcode.com/problems/number-of-zero-filled-subarrays/description/
 
 class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
-        # solution: sliding window
+        # solution: sliding window O(n)
 
-        # ---
-        current_length = 0
-        num_subarrays = 0
-        for i, num in enumerate(nums):
-            if num == 0:
-                current_length += 1
-                num_subarrays += current_length
+        count = 0
+        left, right = 0, 0
+
+        while (right < len(nums)):
+            
+            if nums[right] == 0:
+                count += right - left + 1
+                right += 1
             else:
-                current_length = 0
+                right += 1
+                left = right
 
-        # ---
-        return num_subarrays
+        return count
+        
