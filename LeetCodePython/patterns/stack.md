@@ -47,3 +47,8 @@
 - Undo or Rollback Operations:
     * Using stacks to implement undo or rollback operations.
     * Common problems: "Online Stock Span," "Maximal Rectangle."
+
+**Monotonic Stack**
+
+
+

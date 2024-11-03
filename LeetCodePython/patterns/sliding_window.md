@@ -43,3 +43,13 @@
 - Sliding Window with Custom Conditions:
     * Solving problems with unique conditions or constraints that require sliding window techniques.
     * Common problems: "Minimum Window Substring," "Fruit Into Baskets."
+
+**Template for sliding window**
+
+```{python}
+for right in range(n):
+    while nums[left] > max_right[right]:
+	left += 1
+    res = max(res, right - left)
+```
+
