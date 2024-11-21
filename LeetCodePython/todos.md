@@ -1,5 +1,12 @@
 # TODOs
 
+**Patterns to review**
+
+- monotonic stack
+- DP with cache
+
+
+
 - [ ] [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)
 - [ ] [Longest Palindrome by Concatenating Two Letter WOrds](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/description/)
 - [ ] [Remove Letter to Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)
