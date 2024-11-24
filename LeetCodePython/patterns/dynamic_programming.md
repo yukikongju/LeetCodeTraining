@@ -49,3 +49,12 @@
 - DP on Trees:
     * Solving dynamic programming problems where the underlying structure is a tree.
     * Common problems: "House Robber III" (Binary Tree), "Diameter of Binary Tree."
+
+## Longest Common Substring - 
+
+
+**Dynamic Programming**
+
+**KMP**
+
+
