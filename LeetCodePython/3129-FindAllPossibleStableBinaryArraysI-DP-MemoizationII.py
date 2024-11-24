@@ -1,4 +1,5 @@
 #  https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/
+# Note: this implementation is a lot slower than using the @cache decorator
 
 class Solution:
     def numberOfStableArrays(self, zero: int, one: int, limit: int) -> int:
