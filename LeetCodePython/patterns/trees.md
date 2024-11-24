@@ -47,3 +47,8 @@
 - Graph to Tree Conversion:
     * Converting graph problems to tree-like structures to solve them efficiently.
     * Common problems: "Redundant Connection," "Minimum Height Trees."
+
+## Minimum Height Trees
+
+Intuition: remove leaves iteratively
+
