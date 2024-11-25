@@ -47,3 +47,8 @@
 - Cycle Detection and Removal:
     * Detecting cycles and removing them from the linked list.
     * Common problems: "Linked List Cycle II," "Convert Binary Number in a Linked List to Integer."
+
+## Resources
+
+- [LC - Linked List Guide](https://leetcode.com/discuss/study-guide/1800120/become-master-in-linked-list)
+

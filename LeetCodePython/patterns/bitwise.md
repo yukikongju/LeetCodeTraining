@@ -48,3 +48,7 @@
     * Using bitboards to represent game states and applying bitwise operations for optimizations.
     * Common use cases: Efficient game state representation, move generation.
 
+## Resources
+
+- [LC - Bit Operations Guide - kumar](https://leetcode.com/discuss/interview-question/3695233/all-types-of-patterns-for-bits-manipulations-and-how-to-use-it)
+

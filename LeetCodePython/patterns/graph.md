@@ -47,3 +47,10 @@
 - Graph Decomposition and Transformations:
     * Decomposing a graph into subgraphs or transforming graph problems into more manageable forms.
     * Common problems: "Optimize Water Distribution in a Village," "Evaluate Division."
+
+## Resource
+
+- [LC - Graph Guide](https://leetcode.com/discuss/study-guide/4869319/graph-summary)
+- [LC - DFS on grid/matrix Guide](https://leetcode.com/discuss/study-guide/5050162/beginners-guide-for-dfs-on-gridmatrix-three-variations)
+- [LC - Graph Algorithms Problems Guide](https://leetcode.com/discuss/study-guide/1326900/Graph-algorithms-%2B-problems-to-practice)
+

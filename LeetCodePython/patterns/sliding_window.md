@@ -53,3 +53,8 @@ for right in range(n):
     res = max(res, right - left)
 ```
 
+## Resources
+
+- [LC - Sliding Window Guide](https://leetcode.com/discuss/study-guide/4883819/sliding-window-summary)
+- [LC - Sliding Window Guide - Manish Kumar](https://leetcode.com/discuss/study-guide/3722472/sliding-window-technique-a-comprehensive-guide)
+

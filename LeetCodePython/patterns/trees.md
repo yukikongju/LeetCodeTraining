@@ -52,3 +52,7 @@
 
 Intuition: remove leaves iteratively
 
+## Resources
+
+- [LC - Tree Study Guide](https://leetcode.com/discuss/study-guide/5020529/master-tree-patterns)
+

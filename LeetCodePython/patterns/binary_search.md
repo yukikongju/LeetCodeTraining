@@ -43,3 +43,11 @@
 - Binary Search with Multi-dimensional Arrays:
     * Solving problems that involve searching in multi-dimensional arrays using binary search techniques.
     * Common problems: "Search a 2D Matrix," "Search a 2D Matrix II."
+
+
+## Resources
+
+- [LC - Binary Search Guide](https://leetcode.com/discuss/study-guide/4915114/binary-search-summary)
+- [LC - Binary Search Guide - darkalarm](https://leetcode.com/discuss/study-guide/2371234/)
+- [LC - Binary Search Guide - anon](https://leetcode.com/discuss/study-guide/1322500/5-variations-of-Binary-search-(A-Self-Note))
+

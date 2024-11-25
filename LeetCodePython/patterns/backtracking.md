@@ -48,3 +48,10 @@
     * Problems where the constraints on choices change dynamically as the backtracking process progresses.
     * Common problems: "N-Queens," "Combination Sum," "Word Search II."
 
+
+## Resource
+
+- [LC - Backtracking Guide](https://leetcode.com/discuss/study-guide/4869333/backtracking-summary)
+- [LC - Backtracking Guide - david kim](https://leetcode.com/discuss/interview-question/3055778/how-to-calculate-runtime-of-backtracking-algorithm-for-interview)
+- [LC - Backtracking Guide - kumar](https://leetcode.com/discuss/study-guide/2697929/C%2B%2B-or-All-Backtracking-Interview-Problems-One-Stop-Destination)
+

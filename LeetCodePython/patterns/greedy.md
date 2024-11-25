@@ -39,3 +39,10 @@
 - Greedy with Multiple Conditions:
     * Solving problems where multiple conditions need to be satisfied in order to make a decision.
     * Common problems: "Non-decreasing Array," "Valid Parenthesis String," "Construct K Palindrome Strings."
+
+
+## Resource
+
+- [LC - Greedy Algorithm Guide](https://leetcode.com/discuss/study-guide/4898402/greedy-summary)
+- [LC - Graddy Algorithms - jayant](https://leetcode.com/tag/greedy/discuss/669996/Greedy-for-Beginners-Problems-or-Sample-solutions)
+

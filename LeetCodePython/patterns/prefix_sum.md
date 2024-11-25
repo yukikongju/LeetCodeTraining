@@ -35,3 +35,9 @@ for j, num in enumerate(nums):
 	freq_dct[remainder] = j
 ```
 
+## Resources
+
+- [LC - Prefix Sum + Hashmap Guide](https://leetcode.com/discuss/study-guide/5106455/master-prefix-sum-hash-map-technique)
+- [LC - Prefix Sum Guide](https://leetcode.com/discuss/study-guide/4876248/prefix-sum-summary)
+
+

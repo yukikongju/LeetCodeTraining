@@ -58,3 +58,17 @@
 **KMP**
 
 
+## Resources
+
+- [LC - DP Guide](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
+- [LC - DP Exercices](https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months)
+
+**Exercices**
+
+- https://leetcode.com/list/55ac4kuc - (Min - max path to target)
+- https://leetcode.com/list/55ajm50i - (distinct ways)
+- https://leetcode.com/list/55aj8s16 - (merging intervals)
+- https://leetcode.com/list/55afh7m7 - (DP on strings)
+- https://leetcode.com/list/55af7bu7 - (decision making)
+- 
+
