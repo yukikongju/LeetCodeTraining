@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define MAX_REMOVED 1
 #define btoa(x) ((x) ? "true" : "false")
 
 bool isSafeDecreasing(int *lst, int n) {
@@ -20,6 +21,27 @@ bool isSafeIncreasing(int *lst, int n) {
       return false;
   }
   return true;
+}
+
+bool isSafeWithDampener(int *A, int n) {
+  // try removing number and see if it's safe
+  for (int i = 0; i < n; i++) {
+    // building array without ith position
+    int tmp[n - 1];
+    int k = 0;
+    for (int j = 0; j < n; j++) {
+      if (i != j) {
+        tmp[k++] = A[j];
+      }
+    }
+
+    // testing if this subarray is safe
+    bool isSD = isSafeDecreasing(tmp, n - 1);
+    bool isSI = isSafeIncreasing(tmp, n - 1);
+    if (isSD || isSI)
+      return true;
+  }
+  return false;
 }
 
 int main() {
@@ -41,7 +63,7 @@ int main() {
   }
   fseek(fptr, 0, SEEK_SET);
 
-  // ---- PART 1 ----
+  // ---- PART 2 ----
   int total = 0;
   while (fgets(row, sizeof(row), fptr)) {
     // store integers in row in array
@@ -55,13 +77,11 @@ int main() {
     }
 
     // determine if report is safe or unsafe
-    bool isSD = isSafeDecreasing(numbers, count);
-    bool isSI = isSafeIncreasing(numbers, count);
-    bool isSafe = isSD || isSI;
-    printf("%s: %s => SD: %s; SI: %s\n", row, btoa(isSafe), btoa(isSD),
-           btoa(isSI));
-    if (isSafe)
+    /* printf("%s: %s => SD: %s; SI: %s\n", row, btoa(isSafe), btoa(isSD), */
+    /*        btoa(isSI)); */
+    if (isSafeWithDampener(numbers, count)) {
       total++;
+    }
   }
 
   printf("%s: %d\n", "Total", total);
