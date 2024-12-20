@@ -1,8 +1,11 @@
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 /* https://www.youtube.com/watch?v=QKZXQc8EBDk&ab_channel=Ianertson */
+
+#define N 100
 
 typedef struct POSITION_STRUCT {
   int x, y;
@@ -45,6 +48,64 @@ position_T *init_position(int x, int y) {
   return position;
 }
 
+bool checkHorizontalL2R(char **grid, int m, int n, const char *word,
+                        position_T *pos) {
+  if (pos->y + strlen(word) - 1 >= n) {
+    return false;
+  }
+
+  printf("%d %d %ld\n", pos->x, pos->y, strlen(word));
+
+  // see if XMAS is written
+  /* for (int j = 0; j < strlen(word); j++) { */
+  /*   if (grid[pos->x][pos->y + j] != word[j]) { */
+  /*     return false; */
+  /*   } */
+  /* } */
+
+  return true;
+}
+
+bool checkHorizontalR2L(char **grid, int m, int n, const char *word,
+                        position_T *pos) {
+  /* int m = sizeof(grid[0]); */
+  /* if (pos->y < strlen(word)) { */
+  /*   return false; */
+  /* } */
+
+  /* for (int j = 0; j < m; j++) { */
+  /*   if (grid[pos->x][pos->y - j] != word[j]) { */
+  /*     return false; */
+  /*   } */
+  /* } */
+
+  return true;
+}
+bool checkVerticalT2B(char **grid, int m, int n, const char *word,
+                      position_T *pos) {
+  return true;
+}
+bool checkVerticalB2T(char **grid, int m, int n, const char *word,
+                      position_T *pos) {
+  return true;
+}
+bool checkDiagTL2BR(char **grid, int m, int n, const char *word,
+                    position_T *pos) {
+  return true;
+}
+bool checkDiagBR2TL(char **grid, int m, int n, const char *word,
+                    position_T *pos) {
+  return true;
+}
+bool checkDiagBL2TR(char **grid, int m, int n, const char *word,
+                    position_T *pos) {
+  return true;
+}
+bool checkDiagTR2BL(char **grid, int m, int n, const char *word,
+                    position_T *pos) {
+  return true;
+}
+
 int main() {
   // ---- read file ----
   FILE *fptr;
@@ -71,7 +132,7 @@ int main() {
   char grid[m][n];
   int i = 0;
   while (fgets(row, sizeof(row), fptr)) {
-    for (int j = 0; j < n; j++) {
+    for (int j = 0; j < n && j < strlen(row); j++) {
       grid[i][j] = row[j];
     }
     i++;
@@ -105,11 +166,28 @@ int main() {
   }
 
   printf("Num of 'X': %zu\n", lst_positions->length);
+  char XMAS[] = "XMAS";
 
   // iterate through them
+  bool (*conditions[])(char **, int, int, const char *, position_T *) = {
+      checkHorizontalL2R, checkHorizontalR2L, checkVerticalB2T,
+      checkVerticalT2B,   checkDiagTR2BL,     checkDiagBL2TR,
+      checkDiagTR2BL,     checkDiagBL2TR};
+  int numConditions = 8;
+
+  int counter = 0;
   for (int i = 0; i < lst_positions->length; i++) {
-    // TODO
+    position_T *pos = (position_T *)lst_positions->items[i];
+    /* printf("%d %d\n", pos->x, pos->y); */
+
+    for (int k = 0; k < numConditions; k++) {
+      if (conditions[k](grid, m, n, XMAS, pos)) {
+        counter++;
+      }
+    }
   }
+
+  printf("Counter: %d\n", counter);
 
   return 0;
 }
