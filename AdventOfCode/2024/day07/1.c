@@ -1,14 +1,14 @@
 #include <ctype.h>
-#include <malloc/_malloc_type.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_LINE 100
+#define MAX_LINE 100000
+typedef long long ll;
 
-int computeNumberCalibration(int target, int *numbers, int k) {
-  int total = 0;
+ll computeNumberCalibration(ll target, int *numbers, int k) {
+  ll total = 0;
 
   int tmp[MAX_LINE] = {0};
   tmp[0] = 0;
@@ -43,27 +43,32 @@ int computeNumberCalibration(int target, int *numbers, int k) {
 
 int main() {
   // read file
-  FILE *fptr = fopen("ins/ex.in", "r");
-  /* FILE *fptr = fopen("ins/1.in", "r"); */
+  /* FILE *fptr = fopen("ins/ex.in", "r"); */
+  FILE *fptr = fopen("ins/1.in", "r");
   /* FILE *fptr = fopen("ins/2.in", "r"); */
+  /* FILE *fptr = fopen("ins/3.in", "r"); */
 
   // compute total calibration result
-  int total = 0;
+  ll total = 0;
   char row[MAX_LINE];
   while (fgets(row, sizeof(row), fptr)) {
     // extract target and numbers => <Target>: <num1> <num2> ...
 
     char *p1 = row;
     char *p2 = strstr(row, ":");
+    if (p2 == NULL)
+      continue;
 
     /* printf("%s %s\n", p1, p2); */
 
     // read target
-    char target_buffer[10];
-    size_t len = p2 - p1; // length of target substring
-    strncpy(target_buffer, p1, len);
-    target_buffer[len] = '\0';
-    int target = atoi(target_buffer);
+    /* char target_buffer[10]; */
+    /* size_t len = p2 - p1; // length of target substring */
+    /* strncpy(target_buffer, p1, len); */
+    /* target_buffer[len] = '\0'; */
+    /* int target = atoi(target_buffer); */
+    *p2 = '\0';
+    ll target = strtoll(p1, NULL, 10);
     /* printf("%d\n", target); */
 
     // read numbers
@@ -83,11 +88,11 @@ int main() {
       p2++;
     }
 
-    /* printf("%d %d\n", target, k); */
-    /* for (int i = 0; i < k; i++) { */
-    /*   printf("%d ", numbers[i]); */
-    /* } */
-    /* printf("\n"); */
+    printf("%lld %d\n", target, k);
+    for (int i = 0; i < k; i++) {
+      printf("%d ", numbers[i]);
+    }
+    printf("\n");
 
     // compute number of calibrations
     int numCalibrations = computeNumberCalibration(target, numbers, k);
@@ -96,7 +101,7 @@ int main() {
     }
   }
 
-  printf("Total: %d\n", total);
+  printf("Total: %lld\n", total);
 
   return 0;
 }
