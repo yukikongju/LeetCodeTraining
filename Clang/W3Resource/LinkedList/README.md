@@ -6,12 +6,8 @@
 1. [X] LinkedList
 2. [X] Reversed LinkedList
 3. [X] Count Number of nodes in LinkedList
-4. [ ] Insert Node at beginning of LinkedList
-5. [ ] Insert Node at the end of LinkedList
-6. [ ] Insert Node in the middle of LinkedList
-7. [ ] Delete Node at the beginning of LinkedList
-8. [ ] Delete Node at the middle of LinkedList
-9. [ ] Delete Node at the end of LinkedList
+4. [X] Insert Node at beginning/middle/end of LinkedList (4/5/6)
+7. [ ] Delete Node at the beginning/middle/end of LinkedList (7/8/9)
 10. [ ] Search if element exists in LinkedList
 11. [ ] 
 12. [ ] 
@@ -24,5 +20,8 @@
 
 **Doubly Linked List**
 
+
+
+**Linked List with struct**
 
 
