@@ -1,0 +1,15 @@
+name,sex,age,mark
+Gee,M,20,68
+Gee,M,20,79
+Gee,M,20,86
+Gee,M,20,91
+Suze,F,21,89
+Suze,F,21,85
+Suze,F,21,82
+Suze,F,21,98
+Suze,F,21,92
+Bertold,M,19,98
+Bertold,M,19,92
+Bertold,M,19,75
+Bertold,M,19,89
+Bertold,M,19,93
