@@ -11,8 +11,8 @@ Topological Sort:
 - [ ] Topological Sort - DFS => `topological_sort.py`
 
 Detect Cycle:
-- [ ] Floyd's Algorithm
-- [ ] DFS
+- [ ] Floyd's Algorithm (Tortoise and Hare) - Fast and Slow Pointer in Linked List
+- [X] DFS Coloring => `cycle_dfs.py`
 
 Shortest Path
 - [X] Dikjstra's Algorithm => `dijkstra.py`
