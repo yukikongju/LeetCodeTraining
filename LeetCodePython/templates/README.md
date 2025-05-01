@@ -4,7 +4,7 @@
 - [X] Depth-Firt Search (Iterative)
 - [X] Depth-Firt Search (Recursive)
 - [ ] Binary Tree - Traversal: inorder, preorder, postorder, level order
-- [ ] Topological Sort (Kahn's Algo)
+- [X] Kahn's algorithm (topological sort)
 - [ ] Union Join (Disjoint Set)
 - [ ] Dikjstra's Algorithm (Shortest Path)
 - [ ] Trie
