@@ -1,10 +1,9 @@
 # LeetCode Templates
 
-- [ ] Breadth-First Search
-- [ ] Depth-Firt Search (Iterative)
-- [ ] Depth-Firt Search (Recursive)
-- [ ] Binary Tree - (DFS)
-- [ ] Binary Tree - (Level Order - BFS)
+- [X] Breadth-First Search
+- [X] Depth-Firt Search (Iterative)
+- [X] Depth-Firt Search (Recursive)
+- [ ] Binary Tree - Traversal: inorder, preorder, postorder, level order
 - [ ] Topological Sort (Kahn's Algo)
 - [ ] Union Join (Disjoint Set)
 - [ ] Dikjstra's Algorithm (Shortest Path)
