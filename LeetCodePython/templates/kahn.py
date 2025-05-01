@@ -26,3 +26,12 @@ def topological_sort(num_nodes, edges) -> List[int]:
 
     # check cycle
     return result if len(result) == num_nodes else []
+
+if __name__ == "__main__":
+    V = 6
+    edges = [[0, 1], [1, 2], [2, 3], [4, 5], [5, 1], [5, 2]]
+
+    result = topological_sort(V, edges)
+    if result:
+        print("Topological Order:", result)
+
