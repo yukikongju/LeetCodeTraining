@@ -10,14 +10,14 @@ Topological Sort:
 - [X] Kahn's algorithm - BFS => `kahn.py`
 - [ ] Topological Sort - DFS => `topological_sort.py`
 
-Shortest Path:
-- [X] Dikjstra's Algorithm
+Shortest Path
+- [X] Dikjstra's Algorithm => `dijkstra.py`
 
 Disjoint Set
 - [ ] Union Join 
 
 Unclassified:
-- [ ] Trie
+- [ ] Trie => `trie.py`
 - [ ] Top-Down DP
 - [ ] Bottom-Up DP
 
