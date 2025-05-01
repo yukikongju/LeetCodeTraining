@@ -12,6 +12,7 @@ Topological Sort:
 
 Detect Cycle:
 - [ ] Floyd's Algorithm
+- [ ] DFS
 
 Shortest Path
 - [X] Dikjstra's Algorithm => `dijkstra.py`
