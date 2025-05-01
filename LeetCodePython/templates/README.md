@@ -1,12 +1,22 @@
 # LeetCode Templates
 
-- [X] Breadth-First Search
-- [X] Depth-Firt Search (Iterative)
-- [X] Depth-Firt Search (Recursive)
+Traversal:
+- [X] Breadth-First Search => `bfs.py`
+- [X] Depth-Firt Search (Iterative) => `dfs_iterative.py`
+- [X] Depth-Firt Search (Recursive) => `dfs_recursive.py`
 - [ ] Binary Tree - Traversal: inorder, preorder, postorder, level order
-- [X] Kahn's algorithm (topological sort)
-- [ ] Union Join (Disjoint Set)
-- [ ] Dikjstra's Algorithm (Shortest Path)
+
+Topological Sort:
+- [X] Kahn's algorithm - BFS => `kahn.py`
+- [ ] Topological Sort - DFS => `topological_sort.py`
+
+Shortest Path:
+- [X] Dikjstra's Algorithm
+
+Disjoint Set
+- [ ] Union Join 
+
+Unclassified:
 - [ ] Trie
 - [ ] Top-Down DP
 - [ ] Bottom-Up DP

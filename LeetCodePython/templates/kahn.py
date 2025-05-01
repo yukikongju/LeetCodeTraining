@@ -1,5 +1,5 @@
 # https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/
-# kahn's algorithm for topological sort
+# kahn's algorithm for topological sort - uses BFS and in-degrees
 # note: topological sort only works for DAGs, so we need to check for cycle
 
 from collections import defaultdict, deque
