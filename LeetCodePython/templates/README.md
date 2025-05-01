@@ -10,14 +10,32 @@ Topological Sort:
 - [X] Kahn's algorithm - BFS => `kahn.py`
 - [ ] Topological Sort - DFS => `topological_sort.py`
 
+Detect Cycle:
+- [ ] Floyd's Algorithm
+
 Shortest Path
 - [X] Dikjstra's Algorithm => `dijkstra.py`
+- [ ] Bellman-Ford
+- [ ] Floyd-Warshall
+
+Minimum Spanning Tree:
+- [ ] Kruskal
+- [ ] Prim
 
 Disjoint Set
 - [ ] Union Join 
 
+Sorting:
+- [ ] Quick Sort
+
+
 Unclassified:
-- [ ] Trie => `trie.py`
+- [X] Trie => `trie.py`
 - [ ] Top-Down DP
 - [ ] Bottom-Up DP
+- [ ] Suffix Array / Suffix Tree / KMP
+- [ ] Segment Tree / Fenwick Tree
+- [ ] Binary Search
+- [ ] Kadane's Algorithm
+- [ ] A* Search
 
