@@ -1,9 +1,15 @@
+#  https://leetcode.com/problems/search-in-rotated-sorted-array/
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         # solution: binary search, but we want to find 
         # note: when we split in half, one half will we sorted and the other half won't
         # we can find the sorted half by checking if nums[left] < nums[mid]
         # 6,7,0,1,2,3,4,5
+        # [big numbers] [small numbers]
+        # Sorted array property:
+        # - one half is always sorted; the other half has pivot point
+        # - we want to search in the sorted half
+
 
         left, right = 0, len(nums) - 1
         while left <= right:
